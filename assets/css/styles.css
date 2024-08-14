@@ -1,3 +1,8 @@
+:root {
+    --white: #FFFFFF;
+    --accent: #4BB8E0;
+}
+
 /* CSS Reset */
 * {
     margin: 0;
@@ -7,7 +12,7 @@
 
 body {
     background-color: #001B30;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 400;
@@ -40,7 +45,7 @@ ul, ol{
 /* ---------------------------- */
 
 nav {
-    background-color: #FFFFFF;
+    background-color: var(--white);
     height: 60px;
 }
 
@@ -50,7 +55,7 @@ nav {
 }
 
 .cta-button {
-    background-color: #4BB8E0;
+    background-color: var(--accent);
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -102,4 +107,50 @@ nav {
 
 .cta-button.cta-button-hero {
     font-size: 20px;
+}
+
+/* Services Section */
+#services-section {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 65px 0;
+    margin-bottom: 95px;
+}
+
+#service-icons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 68px;
+}
+
+.service-icon-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 16px;
+    width: 50%;
+}
+
+/* Todo: Transition Hover */
+.service-icon-link:hover h2{
+    color: #3CC0F0;
+    opacity: 100%;
+}
+.service-icon-link:hover .service-icon{
+    fill: #3CC0F0;
+    opacity: 100%;
+}
+
+.service-icon-link h2 {
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 50%;
+}
+
+.service-icon {
+    fill: var(--white);
+    opacity: 50%;
+    height: 73px;
+    width: auto;
 }
