@@ -14,9 +14,13 @@ body {
     background-color: #001B30;
     color: var(--white);
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
     font-weight: 400;
-    line-height: 1.7;
+    line-height: 1.7;   
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
 }
 
 a {
@@ -40,9 +44,9 @@ ul, ol{
 }
 
 
-/* ---------------------------- */
-/* ------ Global Classes ------ */
-/* ---------------------------- */
+/* --------------------- */
+/* ------ Globals ------ */
+/* --------------------- */
 
 nav {
     background-color: var(--white);
@@ -50,8 +54,56 @@ nav {
 }
 
 .container {
-    padding: 0 15px;
+    padding: 0 20px;
     width: 100%;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hero-header {
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.hero-header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero-header hr {
+    border: 1px solid var(--accent);
+    opacity: 50%;
+}
+
+.hero-image-container {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 464px;
+    width: 349px;
+    margin-bottom: 30px;
+}
+
+.hero-image-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-description {
+    margin-bottom: 50px;
 }
 
 .cta-button {
@@ -71,14 +123,13 @@ nav {
 /* ----------------------- */
 
 /* Hero Section */
-#hero-section {
-    display: flex;
-    flex-direction: column;
+#home-hero-section {
     margin-bottom: 60px;
 }
 
-.hero-img-container {
+#home-hero-img-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -90,7 +141,7 @@ nav {
     height: auto;
 }
 
-#hero-section h1 {
+#home-hero-section h1 {
     font-size: 20px;
     font-weight: 800;
     line-height: 1.5;
@@ -98,8 +149,9 @@ nav {
     text-align: left;
 }
 
-#hero-section p {
+#home-hero-section p {
     font-size: 14px;
+    font-weight: 500px;
     opacity: 80%;
     text-align: justify;
     margin-bottom: 30px;
@@ -112,15 +164,14 @@ nav {
 /* Services Section */
 #services-section {
     background-color: rgba(255, 255, 255, 0.2);
-    padding: 65px 0;
-    margin-bottom: 95px;
-}
-
-#service-icons-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     row-gap: 68px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    margin-bottom: 95px;
+
 }
 
 .service-icon-link {
@@ -132,25 +183,36 @@ nav {
     width: 50%;
 }
 
-/* Todo: Transition Hover */
-.service-icon-link:hover h2{
-    color: #3CC0F0;
-    opacity: 100%;
-}
-.service-icon-link:hover .service-icon{
-    fill: #3CC0F0;
-    opacity: 100%;
-}
-
 .service-icon-link h2 {
     font-size: 20px;
     font-weight: 800;
     opacity: 50%;
 }
 
-.service-icon {
+.service-icon-link svg {
     fill: var(--white);
     opacity: 50%;
     height: 73px;
     width: auto;
+}
+/* Todo: Hover Transition */
+.service-icon-link:hover h2,
+.service-icon-link:hover svg{
+    color: #3CC0F0;
+    fill: #3CC0F0;
+    opacity: 100%;
+}
+
+
+/* ------------------------ */
+/* ------ About Page ------ */
+/* ------------------------ */
+
+.hero-header.about-header {
+    margin-bottom: 25px;
+}
+
+.hero-image-container.about-vih-icon {
+    width: 222px;
+    height: 181px;
 }
