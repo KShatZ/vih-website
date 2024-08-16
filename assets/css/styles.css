@@ -245,3 +245,43 @@ nav {
     font-size: 18px;
     margin-bottom: 15px;
 }
+
+/* Our Clients Section */
+#client-personas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 25px;;
+    width: 50%;
+}
+
+.client-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 146px;
+    height: 146px;
+}
+
+.client-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.client-type {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.2;
+}
