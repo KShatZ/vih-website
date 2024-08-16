@@ -58,6 +58,14 @@ nav {
     width: 100%;
 }
 
+.page-section {
+    margin-bottom: 60px;
+}
+
+.page-section:last-of-type {
+    margin-bottom: 95px;
+}
+
 #hero-section {
     display: flex;
     flex-direction: column;
@@ -72,13 +80,24 @@ nav {
     width: 100%;
 }
 
-.hero-header h1 {
+.hero-header-heading {
     font-size: 36px;
     font-weight: 700;
     margin-bottom: 15px;
 }
 
-.hero-header hr {
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-header-heading {
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.header-hr {
     border: 1px solid var(--accent);
     opacity: 50%;
 }
@@ -102,10 +121,6 @@ nav {
     max-height: 100%;
 }
 
-.hero-description {
-    margin-bottom: 50px;
-}
-
 .cta-button {
     background-color: var(--accent);
     border-radius: 5px;
@@ -123,10 +138,6 @@ nav {
 /* ----------------------- */
 
 /* Hero Section */
-#home-hero-section {
-    margin-bottom: 60px;
-}
-
 #home-hero-img-container {
     display: flex;
     flex-direction: row;
@@ -170,8 +181,6 @@ nav {
     row-gap: 68px;
     padding-top: 65px;
     padding-bottom: 65px;
-    margin-bottom: 95px;
-
 }
 
 .service-icon-link {
@@ -208,6 +217,7 @@ nav {
 /* ------ About Page ------ */
 /* ------------------------ */
 
+/* Hero */
 .hero-header.about-header {
     margin-bottom: 25px;
 }
@@ -215,4 +225,23 @@ nav {
 .hero-image-container.about-vih-icon {
     width: 222px;
     height: 181px;
+}
+
+/* Meet Our Team Section */
+.team-member {
+    margin-bottom: 35px;
+}
+
+.team-member:last-of-type {
+    margin-bottom: 0px;
+}
+
+.team-member-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.team-member-role {
+    font-size: 18px;
+    margin-bottom: 15px;
 }
