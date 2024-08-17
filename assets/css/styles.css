@@ -53,9 +53,25 @@ nav {
     height: 60px;
 }
 
+/* Containers */
 .container {
     padding: 0 20px;
     width: 100%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 .page-section {
@@ -65,6 +81,8 @@ nav {
 .page-section:last-of-type {
     margin-bottom: 95px;
 }
+
+/* Hero Sections */
 
 #hero-section {
     display: flex;
@@ -102,23 +120,11 @@ nav {
     opacity: 50%;
 }
 
-.hero-image-container {
+.hero-image {
     border-radius: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
     height: 464px;
     width: 349px;
     margin-bottom: 30px;
-}
-
-.hero-image-container img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
 }
 
 .cta-button {
@@ -138,14 +144,6 @@ nav {
 /* ----------------------- */
 
 /* Hero Section */
-#home-hero-img-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
 #hero-img {
     width: 140%;
     max-width: none;
@@ -222,7 +220,8 @@ nav {
     margin-bottom: 25px;
 }
 
-.hero-image-container.about-vih-icon {
+.hero-image.about-vih-icon {
+    border-radius: 0;
     width: 222px;
     height: 181px;
 }
@@ -265,18 +264,8 @@ nav {
 }
 
 .client-img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
     width: 146px;
     height: 146px;
-}
-
-.client-img img {
-    max-width: 100%;
-    width: 100%;
-    height: auto;
 }
 
 .client-type {
