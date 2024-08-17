@@ -286,6 +286,7 @@ nav {
 }
 
 .service-item-img {
+    border-radius: 5px;
     width: 292px;
     height: 292px;
     margin-bottom: 30px;
@@ -303,4 +304,9 @@ nav {
 
 .service-item.mold-first {
     margin-bottom: 30px;
+}
+
+.service-item-img.mold {
+    width: 349px;
+    height: 464px;
 }
