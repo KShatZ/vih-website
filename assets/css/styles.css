@@ -44,9 +44,9 @@ ul, ol{
 }
 
 
-/* --------------------- */
+/* ===================== */
 /* ------ Globals ------ */
-/* --------------------- */
+/* ===================== */
 
 nav {
     background-color: var(--white);
@@ -83,7 +83,6 @@ nav {
 }
 
 /* Hero Sections */
-
 #hero-section {
     display: flex;
     flex-direction: column;
@@ -139,9 +138,9 @@ nav {
 }
 
 
-/* ----------------------- */
+/* ======================= */
 /* ------ Home Page ------ */
-/* ----------------------- */
+/* ======================= */
 
 /* Hero Section */
 #hero-img {
@@ -211,9 +210,9 @@ nav {
 }
 
 
-/* ------------------------ */
+/* ======================== */
 /* ------ About Page ------ */
-/* ------------------------ */
+/* ======================== */
 
 /* Hero */
 .hero-header.about-header {
@@ -273,4 +272,27 @@ nav {
     font-weight: 700;
     text-align: center;
     line-height: 1.2;
+}
+
+/* ============================= */
+/* ------ Service Page(s) ------ */
+/* ============================= */
+.service-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.service-item-img {
+    width: 292px;
+    height: 292px;
+    margin-bottom: 30px;
+}
+
+.service-item-header {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
 }
