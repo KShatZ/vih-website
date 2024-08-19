@@ -43,6 +43,15 @@ ul, ol{
     list-style: none;
 }
 
+input, textarea {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    /* background: none; */
+    font: inherit;
+    line-height: inherit;
+}
+
 
 /* ===================== */
 /* ------ Globals ------ */
@@ -134,7 +143,7 @@ nav {
     align-items: center;
     font-size: 24px;
     font-weight: 800;
-    height: 50px;
+    height: 65px;
 }
 
 
@@ -165,8 +174,9 @@ nav {
     margin-bottom: 30px;
 }
 
-.cta-button.cta-button-hero {
+.cta-button.home {
     font-size: 20px;
+    height: 50px;
 }
 
 /* Services Section */
@@ -309,4 +319,68 @@ nav {
 .service-item-img.mold {
     width: 349px;
     height: 464px;
+}
+
+/* ============================= */
+/* ------ Contact Us Page ------ */
+/* ============================= */
+.hero-image.contact-hero-img {
+    margin-bottom: 0;
+}
+
+#contact-form-container h1 {
+    font-size: 30px;
+}
+
+.section-header.contact {
+    margin-bottom: 35px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 28px;
+}
+
+
+/* Hide labels, but still have them accessbile */
+.access-labels {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.contact-form-input {
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 0 20px;
+    height: 60px;
+    width: 100%;
+}
+
+.contact-form-input::placeholder {
+    color: rgba(0, 0, 0, .3);
+}
+
+.contact-form-input:focus {
+    border: 3px solid var(--accent);
+}
+
+#inquiry {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 150px;
+}
+
+.cta-button.contact {
+    margin-top: -4px;
+    height: 60px;
 }
