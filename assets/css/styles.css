@@ -324,25 +324,28 @@ nav {
 /* ============================= */
 /* ------ Contact Us Page ------ */
 /* ============================= */
+#hero-section.contact {
+    margin-bottom: 50px;
+}
+
 .hero-image.contact-hero-img {
     margin-bottom: 0;
 }
 
-#contact-form-container h1 {
+.section-header-heading.contact {
     font-size: 30px;
 }
 
+/* Contact Form Section */
 .section-header.contact {
     margin-bottom: 35px;
 }
-
 #contact-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 28px;
 }
-
 
 /* Hide labels, but still have them accessbile */
 .access-labels {
@@ -383,4 +386,11 @@ nav {
 .cta-button.contact {
     margin-top: -4px;
     height: 60px;
+}
+
+/* Location Section */
+#vih-gmap {
+    border-radius: 5px;
+    width: 100%;
+    height: 199px;
 }

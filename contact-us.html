@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="container">
@@ -24,9 +26,9 @@
         </div>
     </section>
 
-    <section id="contact-form-container" class="container page-section">
+    <section class="container page-section">
         <div class="section-header contact">
-            <h1 class="section-header-heading">How Can We Help You?</h1>
+            <h1 class="section-header-heading contact">How Can We Help You?</h1>
             <hr class="header-hr">
         </div>
 
@@ -37,7 +39,8 @@
             </div>
             <div>
                 <label for="phone-number" class="access-labels">Phone Number</label>
-                <input id="phone-number" name="phone-number" type="text" class="contact-form-input" placeholder="Phone Number" required>
+                <input id="phone-number" name="phone-number" type="text" class="contact-form-input"
+                    placeholder="Phone Number" required>
             </div>
             <div>
                 <label for="email" class="access-labels">Email</label>
@@ -45,11 +48,28 @@
             </div>
             <div>
                 <label for="inquiry" class="access-labels">Your Inquiry</label>
-                <textarea id="inquiry" name="inquiry" class="contact-form-input" placeholder="Your Inquiry" required></textarea>
+                <textarea id="inquiry" name="inquiry" class="contact-form-input" placeholder="Your Inquiry"
+                    required></textarea>
             </div>
 
             <button type="submit" class="cta-button contact">Send</button>
         </form>
     </section>
+
+    <section class="container page-section">
+        <div class="section-header">
+            <h2 class="section-header-heading contact">Location</h2>
+            <hr class="header-hr">
+        </div>
+        <iframe id="vih-gmap"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.3112115758336!2d-76.83030208792147!3d39.462297513056384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c83d91572c5291%3A0x5d85855a5118da6b!2sV-IH%20Solutions%2C%20LLC%20-%20Environmental%20%26%20Industrial%20Hygienists!5e0!3m2!1sen!2sus!4v1724085119344!5m2!1sen!2sus"
+            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="container">
+        <!-- Todo -->
+    </footer>
 </body>
+
 </html>
