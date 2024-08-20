@@ -61,9 +61,32 @@ address {
 /* ------ Globals ------ */
 /* ===================== */
 
+/* Navbar */
 nav {
     background-color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 60px;
+}
+
+#nav-logo {
+    width: 189px;
+    height: auto;
+}
+
+#hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.hamburger-line {
+    background-color: var(--accent);
+    border-radius: 5px;
+    height: 3px;
 }
 
 
