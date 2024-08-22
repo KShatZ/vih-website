@@ -18,6 +18,30 @@ body {
     line-height: 1.7;   
 }
 
+nav {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 43px;
+    margin-bottom: 15px;
+}
+
 p {
     font-size: 15px;
     text-align: justify;
@@ -61,13 +85,42 @@ address {
 /* ------ Globals ------ */
 /* ===================== */
 
+/* Containers */
+.container {
+    padding: 0 20px;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.page-section {
+    margin-bottom: 60px;
+}
+
+.page-section:last-of-type {
+    margin-bottom: 95px;
+}
+
 /* Navbar */
-nav {
-    background-color: var(--white);
+#nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 100%;
 }
 
 #nav-logo {
@@ -89,7 +142,6 @@ nav {
     height: 3px;
 }
 
-
 #nav-links {
     background-color: var(--white);
     color: #58595B;
@@ -104,6 +156,7 @@ nav {
     padding-top: 15px;
     padding-bottom: 15px;
     z-index: 99;
+    display: none;
 }
 
 .nav-link {
@@ -141,15 +194,12 @@ nav {
 }
 
 /* Footer */
-footer {
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
+#footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     row-gap: 23px;
-    padding-top: 43px !important;
-    margin-bottom: 15px;
 }
 
 #footer-logo {
@@ -254,35 +304,6 @@ footer hr {
 }
 
 
-/* Containers */
-.container {
-    padding: 0 20px;
-    width: 100%;
-}
-
-.img-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
-
-.img-container img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    max-height: 100%;
-}
-
-.page-section {
-    margin-bottom: 60px;
-}
-
-.page-section:last-of-type {
-    margin-bottom: 95px;
-}
-
 /* Hero Sections */
 #hero-section {
     display: flex;
@@ -346,7 +367,7 @@ footer hr {
 /* Hero Section */
 #hero-img {
     width: 140%;
-    max-width: none;
+    max-width: 600px;
     height: auto;
 }
 

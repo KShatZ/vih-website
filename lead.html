@@ -17,168 +17,174 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="container">
-        <a id="nav-logo" class="img-container" href="/">
-            <img src="assets/img/icons/vih-logo-nav.png" alt="V-IH Solutions, LLC logo.">
-        </a>
-        <div id="hamburger-menu">
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
-            <div class="hamburger-line"></div>
+    <nav>
+        <div id="nav-bar" class="container">
+            <a id="nav-logo" class="img-container" href="/">
+                <img src="assets/img/icons/vih-logo-nav.png" alt="V-IH Solutions, LLC logo.">
+            </a>
+            <div id="hamburger-menu">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </div>
+            <ul id="nav-links" class="container">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/about-us.html" class="nav-link">About Us</a></li>
+                <li>
+                    <span>
+                        Services
+                        <svg id="services-chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="">
+                            <g stroke-width=""></g>
+                            <g stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g >
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z"
+                                    fill="#58595B"></path>
+                            </g>
+                        </svg>
+                    </span>
+                    <ul id="nav-services-dropdown">
+                        <li><a href="/asbestos.html" class="nav-link active">Asbestos</a></li>
+                        <li><a href="/mold.html" class="nav-link">Mold</a></li>
+                        <li class="active"><a href="/lead.html" class="nav-link">Lead</a></li>
+                    </ul>
+                </li>
+                <li><a href="/contact-us.html" class="nav-link">Contact Us</a></li>
+            </ul>
         </div>
-        <ul id="nav-links" class="container">
-            <li><a href="/" class="nav-link">Home</a></li>
-            <li><a href="/about-us.html" class="nav-link">About Us</a></li>
-            <li>
-                <span>
-                    Services
-                    <svg id="services-chevron" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="">
-                        <g stroke-width=""></g>
-                        <g stroke-linecap="round" stroke-linejoin="round"></g>
-                        <g >
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M4.29289 8.29289C4.68342 7.90237 5.31658 7.90237 5.70711 8.29289L12 14.5858L18.2929 8.29289C18.6834 7.90237 19.3166 7.90237 19.7071 8.29289C20.0976 8.68342 20.0976 9.31658 19.7071 9.70711L12.7071 16.7071C12.3166 17.0976 11.6834 17.0976 11.2929 16.7071L4.29289 9.70711C3.90237 9.31658 3.90237 8.68342 4.29289 8.29289Z"
-                                fill="#58595B"></path>
-                        </g>
-                    </svg>
-                </span>
-                <ul id="nav-services-dropdown">
-                    <li><a href="/asbestos.html" class="nav-link active">Asbestos</a></li>
-                    <li><a href="/mold.html" class="nav-link">Mold</a></li>
-                    <li class="active"><a href="/lead.html" class="nav-link">Lead</a></li>
-                </ul>
-            </li>
-            <li><a href="/contact-us.html" class="nav-link">Contact Us</a></li>
-        </ul>
     </nav>
 
-    <!-- Hero -->
-    <section id="hero-section" class="container page-section">
-        <div class="hero-header about-header">
-            <h1 class="hero-header-heading">Lead</h1>
-            <hr class="header-hr">
-        </div>
-        <div class="img-container hero-image">
-            <img src="/assets/img/services/lead/lead-analyzer.png"
-                alt="Lead analyzer that is used by V-IH Solutions to perform lead inspections.">
-        </div>
-        <p class="hero-description">V-IH Solutions can perform lead-based paint surveys using the state-of-the-art
-            portable Niton XRF Lead Analyzer which detects and measures the lead content in paints and primers on wood
-            and metal surfaces without destructive testing and costly lab analysis. V-IH Solutions can also provide
-            environmental and personal sampling for lead during lead abatement projects.</p>
-    </section>
+    <main>
+        <!-- Hero -->
+        <section id="hero-section" class="container page-section">
+            <div class="hero-header about-header">
+                <h1 class="hero-header-heading">Lead</h1>
+                <hr class="header-hr">
+            </div>
+            <div class="img-container hero-image">
+                <img src="/assets/img/services/lead/lead-analyzer.png"
+                    alt="Lead analyzer that is used by V-IH Solutions to perform lead inspections.">
+            </div>
+            <p class="hero-description">V-IH Solutions can perform lead-based paint surveys using the state-of-the-art
+                portable Niton XRF Lead Analyzer which detects and measures the lead content in paints and primers on wood
+                and metal surfaces without destructive testing and costly lab analysis. V-IH Solutions can also provide
+                environmental and personal sampling for lead during lead abatement projects.</p>
+        </section>
 
-    <!-- Lead Related Services -->
-    <section class="container page-section">
-        <div class="section-header">
-            <h2 class="section-header-heading">Services Include</h2>
-            <hr class="header-hr">
-        </div>
-        <ul>
-            <li class="service-item">
-                <div class="img-container service-item-img">
-                    <img src="/assets/img/services/lead/initial-lead-inspection.png"
-                        alt="Lead inspector using lead analyzer on building materials to determine lead presence.">
-                </div>
-                <div>
-                    <h3 class="service-item-header">Initial Lead Inspection</h3>
-                    <p>Prior to starting any construction-related work in a property with suspected lead-based paint
-                        materials, an initial inspection is required to stay compliant with local and federal
-                        regulations. Our lead inspections are performed with a Niton XRF lead analyzer which allows for
-                        non-disruptive testing of possible lead-based paint materials. Upon completion of the lead
-                        inspection, we provide a detailed report containing the test results, the location of tested
-                        materials, and recommendations moving forward.</p>
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="img-container service-item-img">
-                    <img src="/assets/img/services/lead/lead-air-monitoring.png"
-                        alt="V-IH Solutions lead inspector setting up personal air monitoring pump.">
-                </div>
-                <div>
-                    <h3 class="service-item-header">Air Monitoring</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </li>
-            <li class="service-item">
-                <div class="img-container service-item-img">
-                    <img src="/assets/img/services/lead/lead-final-clearance-sampling.png"
-                        alt="Inspector collecting samples for final lead clearance.">
-                </div>
-                <div>
-                    <h3 class="service-item-header">Final Clearance Sampling</h3>
-                    <p>Final clearance sampling is required to ensure that lead abatement was performed correctly and
-                        that the work area was cleaned properly to allow for re-occupancy. Final clearance consists of
-                        dust wipe sampling as well as a visual inspection following local and the U.S. Department of
-                        Housing and Urban Development regulations.</p>
-                </div>
-            </li>
-        </ul>
-    </section>
+        <!-- Lead Related Services -->
+        <section class="container page-section">
+            <div class="section-header">
+                <h2 class="section-header-heading">Services Include</h2>
+                <hr class="header-hr">
+            </div>
+            <ul>
+                <li class="service-item">
+                    <div class="img-container service-item-img">
+                        <img src="/assets/img/services/lead/initial-lead-inspection.png"
+                            alt="Lead inspector using lead analyzer on building materials to determine lead presence.">
+                    </div>
+                    <div>
+                        <h3 class="service-item-header">Initial Lead Inspection</h3>
+                        <p>Prior to starting any construction-related work in a property with suspected lead-based paint
+                            materials, an initial inspection is required to stay compliant with local and federal
+                            regulations. Our lead inspections are performed with a Niton XRF lead analyzer which allows for
+                            non-disruptive testing of possible lead-based paint materials. Upon completion of the lead
+                            inspection, we provide a detailed report containing the test results, the location of tested
+                            materials, and recommendations moving forward.</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="img-container service-item-img">
+                        <img src="/assets/img/services/lead/lead-air-monitoring.png"
+                            alt="V-IH Solutions lead inspector setting up personal air monitoring pump.">
+                    </div>
+                    <div>
+                        <h3 class="service-item-header">Air Monitoring</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="img-container service-item-img">
+                        <img src="/assets/img/services/lead/lead-final-clearance-sampling.png"
+                            alt="Inspector collecting samples for final lead clearance.">
+                    </div>
+                    <div>
+                        <h3 class="service-item-header">Final Clearance Sampling</h3>
+                        <p>Final clearance sampling is required to ensure that lead abatement was performed correctly and
+                            that the work area was cleaned properly to allow for re-occupancy. Final clearance consists of
+                            dust wipe sampling as well as a visual inspection following local and the U.S. Department of
+                            Housing and Urban Development regulations.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
 
-    <!-- Todo: Maybe reduce margin-bottom of this section -->
-    <section class="container page-section">
-        <a class="cta-button cta-button-hero" href="/contact-us">Get a Quote!</a>
-    </section>
+        <!-- Todo: Maybe reduce margin-bottom of this section -->
+        <section class="container page-section">
+            <a class="cta-button cta-button-hero" href="/contact-us">Get a Quote!</a>
+        </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="container">
-        <div id="footer-logo" class="img-container">
-            <img src="assets/img/icons/vih-logo-footer.png" alt="V-IH Solutions, LLC logo.">
-        </div>
-        <ul class="footer-nav">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/asbestos.html">Services</a></li>
-            <li><a href="/about-us.html">About Us</a></li>
-            <li><a href="/contact-us.html">Contact Us</a></li>
-        </ul>
-        <ul class="footer-contact">
-            <li class="footer-contact-item">
-                <div class="img-container footer-contact-icon">
-                    <img src="assets/img/icons/footer-location.png" alt="">
-                </div>
-                <address id="footer-address">
-                    <p>301 Main Street</p>
-                    <p>Suite 1D</p>
-                    <p>Reisterstown, MD 21136</p>
-                </address>
-            </li>
-            <li class="footer-contact-item">
-                <div class="img-container footer-contact-icon">
-                    <img src="assets/img/icons/footer-phone.png" alt="">
-                </div>
-                <address>
-                    <p>410-413-2125</p>
-                </address>
-            </li>
-            <li class="footer-contact-item">
-                <div class="img-container footer-contact-icon">
-                    <img src="assets/img/icons/footer-email.png" alt="">
-                </div>
-                <address>
-                    <a href="mailto:info@vihsolutions.com">info@vihsolutions.com</a>
-                </address>
-            </li>
-        </ul>
-        <section id="footer-about">
-            <h2>About the company</h2>
-            <p>V-IH Solutions, LLC is an industrial hygiene consulting firm that provides high-quality and
-                cost-effective services meeting regulatory and industry standards. We are fully licensed in MD, DC and
-                VA to provide and manage Industrial Hygiene (IH) projects.</p>
-        </section>
-        <hr>
-        <section id="footer-legal">
-            <p>V-IH Solutions, LLC &copy 2024</p>
-            <div id="privacy-terms">
-                <a href="">Privacy Policy</a>
-                <a href="">Terms & Conditions</a>
+    <footer>
+        <div id="footer" class="container">
+            <div id="footer-logo" class="img-container">
+                <img src="assets/img/icons/vih-logo-footer.png" alt="V-IH Solutions, LLC logo.">
             </div>
-            <a id="footer-credit" href="">Developed by Kirill Shats</a>
-        </section>
+            <ul class="footer-nav">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/asbestos.html">Services</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact-us.html">Contact Us</a></li>
+            </ul>
+            <ul class="footer-contact">
+                <li class="footer-contact-item">
+                    <div class="img-container footer-contact-icon">
+                        <img src="assets/img/icons/footer-location.png" alt="">
+                    </div>
+                    <address id="footer-address">
+                        <p>301 Main Street</p>
+                        <p>Suite 1D</p>
+                        <p>Reisterstown, MD 21136</p>
+                    </address>
+                </li>
+                <li class="footer-contact-item">
+                    <div class="img-container footer-contact-icon">
+                        <img src="assets/img/icons/footer-phone.png" alt="">
+                    </div>
+                    <address>
+                        <p>410-413-2125</p>
+                    </address>
+                </li>
+                <li class="footer-contact-item">
+                    <div class="img-container footer-contact-icon">
+                        <img src="assets/img/icons/footer-email.png" alt="">
+                    </div>
+                    <address>
+                        <a href="mailto:info@vihsolutions.com">info@vihsolutions.com</a>
+                    </address>
+                </li>
+            </ul>
+            <section id="footer-about">
+                <h2>About the company</h2>
+                <p>V-IH Solutions, LLC is an industrial hygiene consulting firm that provides high-quality and
+                    cost-effective services meeting regulatory and industry standards. We are fully licensed in MD, DC and
+                    VA to provide and manage Industrial Hygiene (IH) projects.</p>
+            </section>
+            <hr>
+            <section id="footer-legal">
+                <p>V-IH Solutions, LLC &copy 2024</p>
+                <div id="privacy-terms">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Terms & Conditions</a>
+                </div>
+                <a id="footer-credit" href="">Developed by Kirill Shats</a>
+            </section>
+        </div>
     </footer>
 </body>
 
