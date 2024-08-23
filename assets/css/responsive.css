@@ -1,0 +1,111 @@
+@media (min-width: 768px) {
+    /* ====================== */
+    /* ------ Globals ------  */
+    /* ====================== */
+
+    nav {
+        height: 70px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+
+    /* Navbar */
+    #nav-logo {
+        width: 200px;
+    }
+
+    #hamburger-menu {
+        display: none;
+    }
+
+    #nav-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: static;
+        padding: 0;
+        height: 100%;
+        width: 57%;
+    }
+
+    #nav-links li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-services-dropdown {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 900px) {
+    
+    /* ====================== */
+    /* ------ Globals ------  */
+    /* ====================== */
+    
+    nav {
+        height: 75px;
+    }
+
+    .container {
+        padding: 0 35px;
+    }
+
+    /* Navbar */
+    #nav-logo {
+        width: 225px;
+    }
+
+    #nav-links {
+        font-size: 16px;
+    }
+
+}
+
+
+@media (min-width: 1024px) {
+
+    /* ====================== */
+    /* ------ Globals ------  */
+    /* ====================== */
+
+    nav {
+        height: 85px;
+    }
+
+    .container {
+        padding: 0 50px;
+    }
+
+    /* Navbar */
+    #nav-logo {
+        width: 250px;
+    }
+
+    #nav-links {
+        font-size: 18px;
+    }
+
+    #nav-links li.active {
+        border-bottom-width: 4px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+    /* ====================== */
+    /* ------ Globals ------  */
+    /* ====================== */
+
+    #nav-logo {
+        width: 265px;
+    }
+
+}
