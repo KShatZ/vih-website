@@ -365,9 +365,14 @@ footer hr {
 /* ======================= */
 
 /* Hero Section */
+#home-hero-section .img-container {
+    position: relative;
+    left: 6px;
+}
+
 #hero-img {
     width: 140%;
-    max-width: 600px;
+    max-width: 800px;
     height: auto;
 }
 
@@ -381,7 +386,7 @@ footer hr {
 
 #home-hero-section p {
     font-size: 14px;
-    font-weight: 500px;
+    font-weight: 500;
     opacity: 80%;
     text-align: justify;
     margin-bottom: 30px;
