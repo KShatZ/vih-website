@@ -45,6 +45,7 @@
     /* ------ Home Page ------ */
     /* ======================= */
 
+    /* Hero Section */
     #home-hero-section {
         display: flex;
         padding-top: 130px; 
@@ -68,6 +69,15 @@
 
     .cta-button.home {
         width: 50%;
+    }
+
+    /* Services Section */
+    #services-section ul {
+        flex-wrap: nowrap;
+    }
+
+    .home-service-item {
+        width: 25%;
     }
 
 }
@@ -106,6 +116,7 @@
     /* ------ Home Page ------ */
     /* ======================= */
 
+    /* Hero Section */
     #home-hero-section {
         padding-top: 145px;
         margin-bottom: 50px;
@@ -128,6 +139,24 @@
         width: 45%;
     }
 
+    /* Services Section */
+    #services-section ul {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .home-service-link {
+        row-gap: 20px;
+    }
+    
+    .home-service-link h2 {
+        font-size: 21px;
+    }
+
+    .home-service-link svg {
+        height: 85px;
+    }
+
 }
 
 @media (min-width: 1000px) {
@@ -135,7 +164,7 @@
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
-    
+
     #home-hero-section {
         padding-top: 145px;
         margin-bottom: 15px;
@@ -179,6 +208,7 @@
     /* ------ Home Page ------ */
     /* ======================= */
     
+    /* Hero Section */
     #home-hero-section {
         padding-top: 160px;
         margin-bottom: 30px;
@@ -200,6 +230,24 @@
     #home-hero-section p {
         font-size: 16px;
     }
+
+    /* Services Section */
+    #services-section ul {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
+
+    .home-service-link {
+        row-gap: 22px;
+    }
+
+    .home-service-link svg {
+        height: 90px;
+    }
+
+    .home-service-link h2 {
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -208,6 +256,7 @@
     /* ------ Home Page ------ */
     /* ======================= */
     
+    /* Hero Section */
     #home-hero-section {
         padding-top: 200px;
         margin-bottom: 0;
@@ -230,6 +279,23 @@
         width: 43%;
     }
 
+    /* Services Section */
+    #services-section ul {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+
+    .home-service-link {
+        row-gap: 25px;
+    }
+
+    .home-service-link svg {
+        height: 102px;
+    }
+
+    .home-service-link h2 {
+        font-size: 24px;
+    }
 }
 
 

@@ -398,8 +398,16 @@ footer hr {
 }
 
 /* Services Section */
+
 #services-section {
     background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#services-section ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -408,35 +416,41 @@ footer hr {
     padding-bottom: 65px;
 }
 
-.service-icon-link {
+.home-service-item {
+    width: 50%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-service-link {
+    display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
     row-gap: 16px;
-    width: 50%;
+    width: 75%;
 }
 
-.service-icon-link h2 {
-    font-size: 20px;
-    font-weight: 800;
-    opacity: 50%;
-}
-
-.service-icon-link svg {
+.home-service-link svg {
     fill: var(--white);
     opacity: 50%;
     height: 73px;
     width: auto;
 }
-/* Todo: Hover Transition */
-.service-icon-link:hover h2,
-.service-icon-link:hover svg{
+
+.home-service-link h2 {
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 50%;
+}
+
+.home-service-link:hover h2,
+.home-service-link:hover svg{
     color: #3CC0F0;
     fill: #3CC0F0;
     opacity: 100%;
 }
-
 
 /* ======================== */
 /* ------ About Page ------ */
