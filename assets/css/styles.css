@@ -304,7 +304,7 @@ footer hr {
 }
 
 
-/* Hero Sections */
+/* Hero & Header Sections */
 #hero-section {
     display: flex;
     flex-direction: column;
@@ -325,6 +325,13 @@ footer hr {
     margin-bottom: 15px;
 }
 
+.hero-image {
+    border-radius: 5px;
+    height: 464px;
+    width: 349px;
+    margin-bottom: 30px;
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 30px;
@@ -339,13 +346,6 @@ footer hr {
 .header-hr {
     border: 1px solid var(--accent);
     opacity: 50%;
-}
-
-.hero-image {
-    border-radius: 5px;
-    height: 464px;
-    width: 349px;
-    margin-bottom: 30px;
 }
 
 .cta-button {
