@@ -108,7 +108,7 @@
         align-items: start;
     }
 
-    .mold .hero-image img {
+    .hero-image img {
         border-radius: 5px;
     }
 
@@ -119,14 +119,31 @@
         text-align: left;
     }
 
+    .hero-header-heading {
+        font-size: 40px;
+    }
+
     .hero-description {
         order: 3;
         grid-column: 2 / 3;
         grid-row: 2 / 3;
+        font-size: 18px;
+    }
+
+    .mold .hero-description {
+        font-size: 14px;
     }
 
 }
 
+
+@media (min-width: 826px) {
+    
+    .mold .hero-description {
+        font-size: 15px;
+    }
+
+}
 
 
 /* Font Size Change Happens Here */
@@ -200,6 +217,35 @@
 
     .home-service-link svg {
         height: 85px;
+    }
+
+
+    /* =========================== */
+    /* ------ Services Page ------ */
+    /* =========================== */
+
+    /* Hero Section */
+    #hero-section {
+        grid-template-columns: 298px 1fr;
+        column-gap: 40px;
+        margin-top: 100px;
+    }
+
+    #hero-section.mold {
+        grid-template-columns: 320px 1fr;
+        column-gap: 39px;
+    }
+
+    .hero-header-heading {
+        font-size: 45px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+    }
+
+    .mold .hero-description {
+        font-size: 16px;
     }
 
 }
@@ -293,6 +339,34 @@
     .home-service-link h2 {
         font-size: 22px;
     }
+
+    /* =========================== */
+    /* ------ Services Page ------ */
+    /* =========================== */
+
+    /* Hero Section */
+    #hero-section {
+        grid-template-columns: 302px 1fr;
+        column-gap: 50px;
+        margin-top: 125px;
+    }
+
+    .hero-header {
+        margin-bottom: 22px;
+    }
+    
+    .hero-header-heading {
+        font-size: 50px;
+    }
+
+    .hero-description {
+        font-size: 22px;
+    }
+
+    .mold .hero-description {
+        font-size: 18px;
+    }
+    
 }
 
 @media (min-width: 1280px) {
@@ -350,7 +424,28 @@
     #hero-section {
         grid-template-columns: 304px 1fr;
         column-gap: 60px;
-        margin-top: 155px;
+        margin-top: 150px;
+    }
+
+    #hero-section.mold {
+        grid-template-columns: 340px 1fr;
+        column-gap: 60px;
+    }
+
+    .hero-header {
+        margin-bottom: 24px;
+    }
+    
+    .hero-header-heading {
+        font-size: 64px;
+    }
+
+    .hero-description {
+        font-size: 24px;
+    }
+
+    .mold .hero-description {
+        font-size: 20px;
     }
 
 }
