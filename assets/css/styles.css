@@ -527,6 +527,10 @@ footer hr {
     margin-bottom: 55px;
 }
 
+.service-item:last-of-type {
+    margin-bottom: 0;
+}
+
 .service-item-img {
     border-radius: 5px;
     width: 292px;

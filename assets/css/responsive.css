@@ -48,6 +48,10 @@
         margin-bottom: 105px;
     }
 
+    .section-header {
+        margin-bottom: 40px;
+    }
+
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
@@ -141,6 +145,22 @@
         font-size: 14px;
     }
 
+    /* Service Description */
+    .service-item {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 25px;
+    }
+
+    .service-item-img {
+        flex-shrink: 0;
+    }
+
+    .service-item-header {
+        font-size: 28px;
+        text-align: left;
+    }
 }
 
 
@@ -187,6 +207,10 @@
 
     .page-section:last-of-type {
         margin-bottom: 115px;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
     }
 
     /* ======================= */
@@ -263,6 +287,15 @@
         font-size: 16px;
     }
 
+    /* Service Descriptions */
+    .service-item {
+        column-gap: 45px;
+        margin-bottom: 65px;
+    }
+
+    .service-item-header {
+        font-size: 32px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -316,6 +349,10 @@
 
     .page-section:last-of-type {
         margin-bottom: 125px;
+    }
+
+    .section-header {
+        margin-bottom: 60px;
     }
 
     /* ======================= */
@@ -390,6 +427,15 @@
         font-size: 18px;
     }
     
+    /* Service Descriptions */
+    .service-item {
+        column-gap: 60px;
+        margin-bottom: 70px;
+    }
+
+    .service-item-header {
+        font-size: 34px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -491,6 +537,15 @@
         font-size: 20px;
     }
 
+    /* Service Descriptions */
+    .service-item {
+        column-gap: 90px;
+        margin-bottom: 80px;
+    }
+
+    .service-item-header {
+        font-size: 36px;
+    }
 }
 
 
