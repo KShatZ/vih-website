@@ -40,6 +40,13 @@
         display: none;
     }
     
+    .page-section {
+        margin-bottom: 70px;
+    }
+
+    .page-section:last-of-type {
+        margin-bottom: 105px;
+    }
 
     /* ======================= */
     /* ------ Home Page ------ */
@@ -174,6 +181,14 @@
         font-size: 16px;
     }
 
+    .page-section {
+        margin-bottom: 80px;
+    }
+
+    .page-section:last-of-type {
+        margin-bottom: 115px;
+    }
+
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
@@ -295,6 +310,14 @@
         border-bottom-width: 4px;
     }
 
+    .page-section {
+        margin-bottom: 90px;
+    }
+
+    .page-section:last-of-type {
+        margin-bottom: 125px;
+    }
+
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
@@ -370,7 +393,27 @@
 }
 
 @media (min-width: 1280px) {
-    
+
+    /* ====================== */
+    /* ------ Globals ------  */
+    /* ====================== */
+
+    .page-section {
+        margin-bottom: 100px;
+    }
+
+    .page-section:last-of-type {
+        margin-bottom: 135px;
+    }
+
+    .section-header {
+        margin-bottom: 65px;
+    }
+    .section-header-heading {
+        font-size: 36px;
+    }
+
+
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
