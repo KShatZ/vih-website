@@ -11,6 +11,15 @@
         padding: 0 30px;
     }
 
+    .cta {
+        margin-top: -35px;
+    }
+
+    .cta-button {
+        margin: 0 auto;
+        width: 50%;
+    }
+
     /* Navbar */
     #nav-logo {
         width: 200px;
@@ -40,6 +49,7 @@
         display: none;
     }
     
+    /* Page Section */
     .page-section {
         margin-bottom: 70px;
     }
@@ -79,6 +89,7 @@
     }
 
     .cta-button.home {
+        margin: 0;
         width: 50%;
     }
 
@@ -159,6 +170,7 @@
 
     .service-item-header {
         font-size: 28px;
+        font-weight: 400;
         text-align: left;
     }
 }
@@ -192,6 +204,14 @@
         padding: 0 35px;
     }
 
+    .cta {
+        margin-top: -40px;
+    }
+
+    .cta-button {
+        width: 45%;
+    }
+
     /* Navbar */
     #nav-logo {
         width: 225px;
@@ -201,6 +221,7 @@
         font-size: 16px;
     }
 
+    /* Page Section */
     .page-section {
         margin-bottom: 80px;
     }
@@ -330,6 +351,14 @@
         padding: 0 50px;
     }
 
+    .cta {
+        margin-top: -45px;
+    }
+
+    .cta-button {
+        width: 40%;
+    }
+
     /* Navbar */
     #nav-logo {
         width: 250px;
@@ -343,6 +372,7 @@
         border-bottom-width: 4px;
     }
 
+    /* Page Section */
     .page-section {
         margin-bottom: 90px;
     }
@@ -444,6 +474,11 @@
     /* ------ Globals ------  */
     /* ====================== */
 
+    .cta {
+        margin-top: -50px;
+    }
+    
+    /* Page Section */
     .page-section {
         margin-bottom: 100px;
     }
