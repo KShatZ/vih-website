@@ -236,6 +236,17 @@
         width: 35%;
         height: auto;
     }
+
+    /* Meet Our Team Section */
+    #team-section ul {
+        display: flex;
+        column-gap: 30px;
+    }
+
+    .team-member {
+        margin: 0;
+        width: 50%;
+    }
 }
 
 
@@ -419,6 +430,11 @@
     #about-hero {
         margin-top: 100px;
     }
+
+    /* Meet Our Team Section */
+    #team-section ul {
+        column-gap: 40px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -598,6 +614,11 @@
     #about-hero-description {
         column-gap: 4%;
     }
+
+    /* Meet Our Team Section */
+    #team-section ul {
+        column-gap: 50px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -744,6 +765,11 @@
 
     #about-hero-description {
         column-gap: 3%;
+    }
+
+    /* Meet Our Team Section */
+    #team-section ul {
+        column-gap: 60px;
     }
 }
 

@@ -504,6 +504,11 @@ footer hr {
     margin-bottom: 15px;
 }
 
+.team-member-bio {
+    hyphens: auto;
+    font-weight: 300;
+}
+
 /* Our Clients Section */
 #client-personas {
     display: flex;
