@@ -173,12 +173,57 @@
         font-weight: 400;
         text-align: left;
     }
+
+    /* Mold Service Descriptions */
+    #mold-services {
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto;
+        column-gap: 30px;
+        margin-bottom: 90px;
+    }
+    
+    #mold-services ul {
+        display: block;
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    #mold-services .service-item-img {
+        grid-column: 1;
+        grid-row: 1;
+        align-items: stretch;
+        margin: 0;
+        width: 295px;
+        height: auto;
+    }
+
+    #mold-services .service-item:first-of-type {
+        margin-bottom: 15px;
+    }
+
+    #mold-services .service-item-header {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    #mold-services .service-item p {
+        font-size: 14px;
+    }
 }
 
 
 @media (min-width: 826px) {
     
     .mold .hero-description {
+        font-size: 15px;
+    }
+
+    /* Mold Service Descriptions */
+    #mold-services .service-item-header {
+        font-size: 28px;
+    }
+    
+    #mold-services .service-item p {
         font-size: 15px;
     }
 
@@ -316,6 +361,28 @@
 
     .service-item-header {
         font-size: 32px;
+    }
+
+    /* Mold Service Descriptions */
+    #mold-services {
+        column-gap: 39px;
+        margin-bottom: 110px;
+    }
+    
+    #mold-services .service-item-img {
+        width: 320px;
+    }
+
+    #mold-services .service-item:first-of-type {
+        margin-bottom: 20px;
+    }
+
+    #mold-services .service-item-header {
+        font-size: 30px;
+    }
+    
+    #mold-services .service-item p {
+        font-size: 16px;
     }
 }
 
@@ -466,6 +533,23 @@
     .service-item-header {
         font-size: 34px;
     }
+
+    /* Mold Service Descriptions */
+    #mold-services {
+        margin-bottom: 130px;
+    }
+    
+    #mold-services .service-item:first-of-type {
+        margin-bottom: 22px;
+    }
+
+    #mold-services .service-item-header {
+        font-size: 34px;
+    }
+    
+    #mold-services .service-item p {
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -579,6 +663,25 @@
     }
 
     .service-item-header {
+        font-size: 36px;
+    }
+
+    /* Mold Service Descriptions */
+    #mold-services {
+        column-gap: 60px;
+        margin-bottom: 135px;
+    }
+
+    #mold-services .service-item-img {
+        width: 340px;
+        height: 508px;
+    }
+    
+    #mold-services .service-item:first-of-type {
+        margin-bottom: 25px;
+    }
+
+    #mold-services .service-item-header {
         font-size: 36px;
     }
 }

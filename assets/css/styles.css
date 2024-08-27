@@ -544,17 +544,31 @@ footer hr {
     margin-bottom: 10px;
 }
 
+/* Mold Service Descriptions */
+#mold-services {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+}
+
+#mold-services ul {
+    display: contents;
+}
+
 .mold-hr {
     margin-bottom: 15px;
 }
 
-.service-item.mold-first {
+#mold-services .service-item:first-of-type {
     margin-bottom: 30px;
 }
 
-.service-item-img.mold {
+#mold-services .service-item-img {
     width: 349px;
     height: 464px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-row: 2 / 3;
 }
 
 /* ============================= */
