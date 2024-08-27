@@ -209,6 +209,33 @@
     #mold-services .service-item p {
         font-size: 14px;
     }
+
+    /* ======================== */
+    /* ------ About Page ------ */
+    /* ======================== */
+
+    /* Hero */
+    #about-hero {
+        margin-top: 85px;
+    }
+
+    #about-hero .header-hr {
+        display: none;
+    }
+
+    #about-hero-description {
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        column-gap: 3%;
+        row-gap: 0px;
+    }
+
+    .about-hero-image {        
+        flex-shrink: 0;
+        width: 35%;
+        height: auto;
+    }
 }
 
 
@@ -226,7 +253,6 @@
     #mold-services .service-item p {
         font-size: 15px;
     }
-
 }
 
 
@@ -383,6 +409,15 @@
     
     #mold-services .service-item p {
         font-size: 16px;
+    }
+
+    /* ======================== */
+    /* ------ About Page ------ */
+    /* ======================== */
+
+    /* Hero */
+    #about-hero {
+        margin-top: 100px;
     }
 }
 
@@ -550,6 +585,19 @@
     #mold-services .service-item p {
         font-size: 18px;
     }
+
+    /* ======================== */
+    /* ------ About Page ------ */
+    /* ======================== */
+
+    /* Hero */
+    #about-hero {
+        margin-top: 125px;
+    }
+
+    #about-hero-description {
+        column-gap: 4%;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -683,6 +731,19 @@
 
     #mold-services .service-item-header {
         font-size: 36px;
+    }
+
+    /* ======================== */
+    /* ------ About Page ------ */
+    /* ======================== */
+
+    /* Hero */
+    #about-hero {
+        margin-top: 150px;
+    }
+
+    #about-hero-description {
+        column-gap: 3%;
     }
 }
 

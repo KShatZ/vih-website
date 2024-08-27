@@ -465,15 +465,22 @@ footer hr {
     margin-top: 25px
 }
 
-.hero-header-about {
+.about-hero-header {
     margin-bottom: 25px;
     text-align: center;
     width: 100%;
 }
 
+#about-hero-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+
 .about-hero-image {
     border-radius: 0;
-    margin-bottom: 30px;
     width: 222px;
     height: 181px;
 }
