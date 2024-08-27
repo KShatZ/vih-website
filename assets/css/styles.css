@@ -457,11 +457,19 @@ footer hr {
 /* ======================== */
 
 /* Hero */
-.hero-header.about-header {
+#about-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px
+}
+
+.hero-header.about {
     margin-bottom: 25px;
 }
 
-.hero-image.about-vih-icon {
+#about-hero .hero-image {
     border-radius: 0;
     width: 222px;
     height: 181px;
