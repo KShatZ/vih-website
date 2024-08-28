@@ -318,6 +318,11 @@
         margin-top: 0;
         width: 75%;
     }
+
+    /* Location Section */
+    #vih-gmap {
+        height: 275px;
+    }
 }
 
 
@@ -547,6 +552,11 @@
     .cta-button.contact {
         height: 60px;
     }
+
+    /* Location Section */
+    #vih-gmap {
+        height: 315px;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -772,6 +782,15 @@
     .cta-button.contact {
         height: 62px;
     }
+
+    /* Location Section */
+    #contact-location-section .section-header-heading {
+        font-size: 38px;
+    }
+
+    #vih-gmap {
+        height: 350px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -978,6 +997,15 @@
 
     .cta-button.contact {
         height: 65px;
+    }
+
+    /* Location Section */
+    #contact-location-section .section-header-heading {
+        font-size: 40px;
+    }
+
+    #vih-gmap {
+        height: 400px;
     }
 }
 
