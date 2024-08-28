@@ -338,7 +338,7 @@ footer hr {
 }
 
 .section-header-heading {
-    font-size: 34px;
+    font-size: 36px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -513,7 +513,7 @@ footer hr {
 #client-personas {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     row-gap: 40px;
 }
@@ -523,7 +523,7 @@ footer hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    row-gap: 25px;;
+    row-gap: 25px;
     width: 50%;
 }
 

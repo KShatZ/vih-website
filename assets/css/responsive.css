@@ -247,6 +247,13 @@
         margin: 0;
         width: 50%;
     }
+
+    /* Our Clients Section */
+    .client {
+        flex-grow: 1;
+        width: 33%;
+    }
+   
 }
 
 
@@ -619,6 +626,11 @@
     #team-section ul {
         column-gap: 50px;
     }
+
+    /* Our Client Section */
+    #client-personas {
+        row-gap: 55px;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -642,9 +654,6 @@
 
     .section-header {
         margin-bottom: 65px;
-    }
-    .section-header-heading {
-        font-size: 36px;
     }
 
 
@@ -770,6 +779,23 @@
     /* Meet Our Team Section */
     #team-section ul {
         column-gap: 60px;
+    }
+
+    /* Our Clients */
+    #client-personas {
+        flex-wrap: nowrap;
+    }
+
+    .client {
+        row-gap: 30px;
+    }
+
+    .builders {
+        order: 1;
+    }
+
+    .client:not(.abatement, .home-owners, .builders) {
+        order: 2;
     }
 }
 
