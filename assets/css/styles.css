@@ -597,6 +597,8 @@ footer hr {
 /* ============================= */
 /* ------ Contact Us Page ------ */
 /* ============================= */
+
+/* Hero */
 #hero-section.contact {
     margin-bottom: 50px;
 }
@@ -605,14 +607,23 @@ footer hr {
     margin-bottom: 0;
 }
 
-.section-header-heading.contact {
-    font-size: 30px;
+/* Contact Form Section */
+#contact-section {
+    width: 100%;
 }
 
-/* Contact Form Section */
-.section-header.contact {
+#contact-blur {
+    display: none;
+}
+
+#form-header .section-header-heading {
+    font-size: 30px
+}
+
+#form-header {
     margin-bottom: 35px;
 }
+
 #contact-form {
     display: flex;
     flex-direction: column;

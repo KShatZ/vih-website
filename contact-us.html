@@ -61,34 +61,37 @@
             </div>
         </section>
     
-        <section class="container page-section">
-            <div class="section-header contact">
-                <h1 class="section-header-heading contact">How Can We Help You?</h1>
-                <hr class="header-hr">
+        <section id="contact-section" class="page-section">
+            <div id="contact-blur"></div>
+            <div id="form-container" class="container">
+                <div id="form-header" class="section-header">
+                    <h1 class="section-header-heading">How Can We Help You?</h1>
+                    <hr class="header-hr">
+                </div>
+        
+                <form action="" id="contact-form">
+                    <div>
+                        <label for="name" class="access-labels">Name</label>
+                        <input id="name" name="name" type="text" class="contact-form-input" placeholder="Name" required>
+                    </div>
+                    <div>
+                        <label for="phone-number" class="access-labels">Phone Number</label>
+                        <input id="phone-number" name="phone-number" type="text" class="contact-form-input"
+                            placeholder="Phone Number" required>
+                    </div>
+                    <div>
+                        <label for="email" class="access-labels">Email</label>
+                        <input id="email" name="email" type="text" class="contact-form-input" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label for="inquiry" class="access-labels">Your Inquiry</label>
+                        <textarea id="inquiry" name="inquiry" class="contact-form-input" placeholder="Your Inquiry"
+                            required></textarea>
+                    </div>
+        
+                    <button type="submit" class="cta-button contact">Send</button>
+                </form>
             </div>
-    
-            <form action="" id="contact-form">
-                <div>
-                    <label for="name" class="access-labels">Name</label>
-                    <input id="name" name="name" type="text" class="contact-form-input" placeholder="Name" required>
-                </div>
-                <div>
-                    <label for="phone-number" class="access-labels">Phone Number</label>
-                    <input id="phone-number" name="phone-number" type="text" class="contact-form-input"
-                        placeholder="Phone Number" required>
-                </div>
-                <div>
-                    <label for="email" class="access-labels">Email</label>
-                    <input id="email" name="email" type="text" class="contact-form-input" placeholder="Email" required>
-                </div>
-                <div>
-                    <label for="inquiry" class="access-labels">Your Inquiry</label>
-                    <textarea id="inquiry" name="inquiry" class="contact-form-input" placeholder="Your Inquiry"
-                        required></textarea>
-                </div>
-    
-                <button type="submit" class="cta-button contact">Send</button>
-            </form>
         </section>
     
         <section class="container page-section">
