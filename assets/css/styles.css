@@ -206,7 +206,7 @@ address {
     width: 185px;
 }
 
-.footer-nav {
+#footer-nav {
     display: flex;
     justify-content: space-between;
     align-items: top;
@@ -216,7 +216,7 @@ address {
     width: 100%;
 }
 
-.footer-contact {
+#footer-contact {
     margin-bottom: 5px;
 }
 
@@ -265,12 +265,6 @@ address {
     line-height: 1.3;
 }
 
-footer hr {
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    width: 100%;
-    margin-bottom: -13px;
-}
-
 #footer-legal {
     display: flex;
     flex-direction: column;
@@ -278,6 +272,12 @@ footer hr {
     row-gap: 7px;
     font-size: 14px;
     width: 100%;
+}
+
+#footer-legal hr {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    margin-bottom: 15px;
 }
 
 #footer-legal p {
