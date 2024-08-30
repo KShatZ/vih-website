@@ -184,12 +184,16 @@ address {
 
 #nav-services-dropdown {
     background-color: #f2f2f2;
-    display: flex;
+    display: none;
     flex-direction: column;
     row-gap: 8px;
     font-weight: 400;
     margin-top: 5px;
     padding: 7px 0px;
+}
+
+#nav-services-dropdown.active {
+    display: flex;
 }
 
 #nav-services-dropdown li a {
