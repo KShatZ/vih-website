@@ -253,9 +253,12 @@ address {
     width: 100%;
 }
 
+#footer-nav a {
+    transition: color 0.5s ease;
+}
+
 #footer-nav a:hover {
     color: var(--accent);
-    transition: color 0.5s ease;
 }
 
 #footer-contact {
@@ -284,9 +287,12 @@ address {
     line-height: 1;
 }
 
+.footer-contact-item a {
+    transition: color 0.5s ease;
+}
+
 .footer-contact-item a:hover {
     color: var(--accent);
-    transition: color 0.5s ease;
 }
 
 #footer-address {
@@ -335,21 +341,21 @@ address {
 #privacy-terms a {
     margin: 0 7px;
     opacity: 50%;
+    transition: opacity 0.5s ease, color 0.5s ease;
 }
 
 #privacy-terms a:hover {
     color: var(--accent);
     opacity: 100%;
-    transition: opacity 0.5s ease, color 0.5s ease;
 }
 
 #footer-credit {
     color: var(--accent);
+    transition: color 0.5s ease;
 }
 
 #footer-credit:hover {
     color: var(--white);
-    transition: color 0.5s ease;
 }
 
 
@@ -407,12 +413,12 @@ address {
     font-size: 24px;
     font-weight: 800;
     height: 65px;
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 .cta-button:hover {
     background-color: var(--white);
     color: var(--accent);
-    transition: background 0.5s ease, color 0.5s ease;
 }
 
 
@@ -728,13 +734,13 @@ address {
 .cta-button.contact {
     margin-top: -4px;
     height: 60px;
+    transition: border-color 0.5s ease, background 0.5s ease;
 }
 
 .cta-button.contact:hover {
  background-color: transparent;
  border: 3px solid var(--white);
  color: var(--white);
- transition: border-color 0.5s ease, background 0.5s ease;
 }
 
 /* Location Section */
