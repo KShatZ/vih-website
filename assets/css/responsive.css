@@ -21,6 +21,10 @@
         height: 70px;
     }
 
+    #upper-nav-layer {
+        width: 200px;
+    }
+
     #nav-logo {
         width: 200px;
     }
@@ -30,13 +34,15 @@
     }
 
     #nav-links {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         position: static;
         padding: 0;
         height: 100%;
-        width: 57%;
+        max-width: 55%;
+        opacity: 1;
+        transform: none;
+        transition: none;
     }
 
     #nav-links li {
@@ -45,8 +51,36 @@
         align-items: center;
     }
 
+    #nav-services {
+        position: relative;
+    }
+
     #nav-services-dropdown {
-        display: none;
+        background-color: var(--white);
+        border-top: 0px solid #f2f2f2;
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        row-gap: 0;
+        transition: height 0.5s ease, border-width 0.2s ease;
+    }
+
+    #nav-services-dropdown.active {
+        border-width: 2px;
+        padding: 0;
+        margin-top: 0;
+        height: 142px;
+    }
+
+    #nav-services-dropdown li a {
+       padding: 10px 25px;
+       width: 100%;
+    }
+
+    #nav-services-dropdown li:hover {
+        transition: background-color 0.5s ease-out, color 0.5s ease-out;
+        background-color: var(--accent);
+        color: var(--white);
     }
     
     /* Page Section */
@@ -439,12 +473,25 @@
     }
 
     /* Navbar */
+    #upper-nav-layer {
+        width: 225px;
+    }
+
     #nav-logo {
         width: 225px;
     }
 
     #nav-links {
         font-size: 16px;
+        max-width: 50%;
+    }
+
+    #nav-services-dropdown {
+        top: 75px;
+    }
+
+    #nav-services-dropdown.active {
+        height: 147px
     }
 
     /* Page Section */
@@ -697,17 +744,35 @@
     }
 
     /* Navbar */
+    #upper-nav-layer {
+        width: 250px;
+    }
+
     #nav-logo {
         width: 250px;
     }
 
     #nav-links {
         font-size: 18px;
+        max-width: 50%;
     }
 
     #nav-links li.active {
         border-bottom-width: 4px;
     }
+
+    #nav-services-dropdown {
+        top: 85px;
+    }
+
+    #nav-services-dropdown.active {
+        height: 170px;
+    }
+
+    #nav-services-dropdown li a {
+        padding: 12px 27px;
+        width: 100%;
+     }
 
     /* Page Section */
     .page-section {
@@ -1193,6 +1258,10 @@
     /* ====================== */
     /* ------ Globals ------  */
     /* ====================== */
+
+    #upper-nav-layer {
+        width: 265px;
+    }
 
     #nav-logo {
         width: 265px;

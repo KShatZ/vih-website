@@ -20,7 +20,25 @@ hamburgerMenu.addEventListener("click", (e) => {
 });
 
 navServices.addEventListener("click", (e) => {
-
     servicesDropdownClasses.toggle("active");
+});
 
+
+// Prevent nav-bar shenanigins on resize of window
+let resizeTimer;
+window.addEventListener("resize", () => {
+
+    if (navLinksClasses.contains("active")) {
+        navLinksClasses.remove("active");
+    }
+
+    if (servicesDropdownClasses.contains("active")) {
+        servicesDropdownClasses.remove("active");
+    }
+
+    document.body.classList.add("disable-transitions");
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+        document.body.classList.remove("disable-transitions");
+    }, 200);
 });
