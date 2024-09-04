@@ -1,8 +1,20 @@
 const hamburgerMenu = document.getElementById("hamburger-menu");
 const navServices = document.getElementById("nav-services");
+const servicesDropdown = document.getElementById("nav-services-dropdown");
 
 const navLinksClasses = document.getElementById("nav-links").classList;
 const servicesDropdownClasses = document.getElementById("nav-services-dropdown").classList;
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    const lead = servicesDropdown.querySelector("li:last-child");
+
+    if (lead.classList.contains("active")) {
+        servicesDropdownClasses.add("lead-active");
+    } else {
+        servicesDropdownClasses.remove("lead-active");
+    }
+});
 
 
 // Add clicking outside of both dropdowns to close it

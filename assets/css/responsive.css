@@ -69,6 +69,10 @@
         border-width: 2px;
         padding: 0;
         margin-top: 0;
+        height: 138.5px;
+    }
+    
+    #nav-services-dropdown.active.lead-active {
         height: 142px;
     }
 
@@ -494,7 +498,11 @@
     }
 
     #nav-services-dropdown.active {
-        height: 147px
+        height: 144px
+    }
+
+    #nav-services-dropdown.active.lead-active {
+        height: 147px;
     }
 
     /* Page Section */
@@ -769,6 +777,10 @@
     }
 
     #nav-services-dropdown.active {
+        height: 166px;
+    }
+
+    #nav-services-dropdown.active.lead-active {
         height: 170px;
     }
 
