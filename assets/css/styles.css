@@ -182,7 +182,7 @@ address {
 
 /* Prevent Transitions on Resize */
 .disable-transitions #nav-links {
-    transition: none;
+    transition: none !important;
 }
 
 .nav-link {
@@ -399,6 +399,7 @@ address {
 
 .cta-button {
     background-color: var(--accent);
+    border-color: transparent;
     border-radius: 5px;
     display: flex;
     justify-content: center;
@@ -406,6 +407,12 @@ address {
     font-size: 24px;
     font-weight: 800;
     height: 65px;
+}
+
+.cta-button:hover {
+    background-color: var(--white);
+    color: var(--accent);
+    transition: background 0.5s ease, color 0.5s ease;
 }
 
 
@@ -721,6 +728,13 @@ address {
 .cta-button.contact {
     margin-top: -4px;
     height: 60px;
+}
+
+.cta-button.contact:hover {
+ background-color: transparent;
+ border: 3px solid var(--white);
+ color: var(--white);
+ transition: border-color 0.5s ease, background 0.5s ease;
 }
 
 /* Location Section */
