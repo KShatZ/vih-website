@@ -284,6 +284,11 @@ address {
     line-height: 1;
 }
 
+.footer-contact-item a:hover {
+    color: var(--accent);
+    transition: color 0.5s ease;
+}
+
 #footer-address {
     height: 52px;
     display: flex;
@@ -335,6 +340,7 @@ address {
 #privacy-terms a:hover {
     color: var(--accent);
     opacity: 100%;
+    transition: opacity 0.5s ease, color 0.5s ease;
 }
 
 #footer-credit {
@@ -343,6 +349,7 @@ address {
 
 #footer-credit:hover {
     color: var(--white);
+    transition: color 0.5s ease;
 }
 
 
