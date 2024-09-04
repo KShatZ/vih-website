@@ -253,6 +253,11 @@ address {
     width: 100%;
 }
 
+#footer-nav a:hover {
+    color: var(--accent);
+    transition: color 0.5s ease;
+}
+
 #footer-contact {
     margin-bottom: 5px;
 }
