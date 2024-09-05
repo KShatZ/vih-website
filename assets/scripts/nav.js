@@ -1,6 +1,7 @@
 const hamburgerMenu = document.getElementById("hamburger-menu");
 const navLinksItems = document.querySelectorAll("#nav-links li");
 const navServices = document.getElementById("nav-services");
+const servicesChevron = document.getElementById("services-chevron");
 const servicesDropdown = document.getElementById("nav-services-dropdown");
 
 const navLinksClasses = document.getElementById("nav-links").classList;
@@ -21,10 +22,14 @@ document.addEventListener("DOMContentLoaded", () => {
 hamburgerMenu.addEventListener("click", (e) => {
     
     navLinksClasses.toggle("active");
+    hamburgerMenu.classList.toggle("open");
 
     if (navLinksClasses.contains("active")) {
+        servicesChevron.classList.add("active");
         servicesDropdownClasses.add("active");
+        
     } else {
+        servicesChevron.classList.remove("active");
         servicesDropdownClasses.remove("active");
     };
 
@@ -32,6 +37,7 @@ hamburgerMenu.addEventListener("click", (e) => {
 });
 
 navServices.addEventListener("click", (e) => {
+    servicesChevron.classList.toggle("active");
     servicesDropdownClasses.toggle("active");
 });
 
@@ -39,12 +45,14 @@ navServices.addEventListener("click", (e) => {
 document.addEventListener("click", (e) => {
     if (navLinksClasses.contains("active")) {
         if (e.target != document.getElementById("nav-links")) {
+            hamburgerMenu.classList.remove("open");
             navLinksClasses.remove("active");
         }
     }
 
     if (servicesDropdownClasses.contains("active")) {
         if (e.target != servicesDropdown) {
+            servicesChevron.classList.remove("active");
             servicesDropdownClasses.remove("active");
         }
     }
@@ -65,6 +73,7 @@ window.addEventListener("resize", () => {
     }
 
     if (servicesDropdownClasses.contains("active")) {
+        servicesChevron.classList.remove("active");
         servicesDropdownClasses.remove("active");
     }
 
