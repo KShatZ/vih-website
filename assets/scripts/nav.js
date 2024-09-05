@@ -69,6 +69,7 @@ let resizeTimer;
 window.addEventListener("resize", () => {
 
     if (navLinksClasses.contains("active")) {
+        hamburgerMenu.classList.remove("open");
         navLinksClasses.remove("active");
     }
 
