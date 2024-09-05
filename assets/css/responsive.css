@@ -432,6 +432,15 @@
     #vih-gmap {
         height: 275px;
     }
+
+    /* ==================== */
+    /* ------ Modals ------ */
+    /* ==================== */
+
+    .modal-content-container {
+        width: 85%;
+    }
+
 }
 
 
@@ -1014,6 +1023,20 @@
     #vih-gmap {
         height: 350px;
     }
+
+
+    /* ==================== */
+    /* ------ Modals ------ */
+    /* ==================== */
+
+    .modal-close-button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .modal-content-container {
+        width: 75%;
+    }
 }
 
 @media (min-width: 1280px) {
@@ -1264,6 +1287,13 @@
 
     #vih-gmap {
         height: 400px;
+    }
+
+    /* ==================== */
+    /* ------ Modals ------ */
+    /* ==================== */
+    .modal-content-container {
+        max-width: 825px;
     }
 }
 
