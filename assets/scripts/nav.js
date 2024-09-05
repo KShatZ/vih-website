@@ -1,9 +1,11 @@
 const hamburgerMenu = document.getElementById("hamburger-menu");
+const navLinksItems = document.querySelectorAll("#nav-links li");
 const navServices = document.getElementById("nav-services");
 const servicesDropdown = document.getElementById("nav-services-dropdown");
 
 const navLinksClasses = document.getElementById("nav-links").classList;
 const servicesDropdownClasses = document.getElementById("nav-services-dropdown").classList;
+
 
 document.addEventListener("DOMContentLoaded", () => {
 
@@ -16,9 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
-
-// Add clicking outside of both dropdowns to close it
-
 hamburgerMenu.addEventListener("click", (e) => {
     
     navLinksClasses.toggle("active");
@@ -29,12 +28,33 @@ hamburgerMenu.addEventListener("click", (e) => {
         servicesDropdownClasses.remove("active");
     };
 
+    e.stopPropagation();
 });
 
 navServices.addEventListener("click", (e) => {
     servicesDropdownClasses.toggle("active");
 });
 
+
+document.addEventListener("click", (e) => {
+    if (navLinksClasses.contains("active")) {
+        if (e.target != document.getElementById("nav-links")) {
+            navLinksClasses.remove("active");
+        }
+    }
+
+    if (servicesDropdownClasses.contains("active")) {
+        if (e.target != servicesDropdown) {
+            servicesDropdownClasses.remove("active");
+        }
+    }
+});
+
+navLinksItems.forEach((item) => {
+    item.addEventListener("click", (e) => {
+        e.stopPropagation();
+    });
+});
 
 // Prevent nav-bar shenanigins on resize of window
 let resizeTimer;
