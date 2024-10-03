@@ -77,7 +77,7 @@
                     <hr class="header-hr">
                 </div>
 
-                <form action="" id="contact-form">
+                <form id="contact-form">
                     <div>
                         <label for="name" class="access-labels">Name</label>
                         <input id="name" name="name" type="text" class="contact-form-input" placeholder="Name" required>
@@ -92,10 +92,14 @@
                         <input id="email" name="email" type="text" class="contact-form-input" placeholder="Email"
                             required>
                     </div>
-                    <div>
+                    <div id="inquiry-container">
                         <label for="inquiry" class="access-labels">Your Inquiry</label>
                         <textarea id="inquiry" name="inquiry" class="contact-form-input" placeholder="Your Inquiry"
                             required></textarea>
+                    </div>
+
+                    <div id="contact-form-status">
+                        <p></p>
                     </div>
 
                     <button type="submit" class="cta-button contact">Send</button>
@@ -310,6 +314,7 @@
 
     <script src="/assets/scripts/nav.js"></script>
     <script src="/assets/scripts/modal.js"></script>
+    <script src="/assets/scripts/contact-form.js"></script>
 </body>
 
 </html>

@@ -715,6 +715,7 @@ address {
     flex-direction: column;
     justify-content: center;
     row-gap: 28px;
+    position: relative;
 }
 
 /* Hide labels, but still have them accessbile */
@@ -747,10 +748,43 @@ address {
     border: 3px solid var(--accent);
 }
 
+#inquiry-container {
+    transition: margin-bottom 0.5s ease;
+}
+
 #inquiry {
     padding-top: 20px;
     padding-bottom: 10px;
     height: 150px;
+}
+
+#contact-form-status {
+    border: 1px solid var(--accent);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    height: 75px;
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease 0.3s;
+}
+
+#contact-form-status.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+#contact-form-status p {
+    text-align: center;
+}
+
+#contact-form-status.error {
+    border-color: red;
 }
 
 .cta-button.contact {
