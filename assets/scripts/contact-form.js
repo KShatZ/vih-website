@@ -10,7 +10,7 @@ contactForm.addEventListener("submit", async (e) => {
     // Reset status, if multiple attempts
     if (formStatus.classList.contains("active")) {
         formStatus.classList.remove("active", "error");
-        inquiryContainer.style.marginBottom = "0px";
+        inquiryContainer.classList.remove("status-active");
         formStatus.firstElementChild.innerText = "";
     }
 
