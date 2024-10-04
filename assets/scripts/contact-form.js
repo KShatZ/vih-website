@@ -28,12 +28,12 @@ contactForm.addEventListener("submit", async (e) => {
     
         if (response.ok) {
             contactForm.reset();
-            inquiryContainer.style.marginBottom = "80px";
+            inquiryContainer.classList.add("status-active");
             formStatus.classList.add("active");
             formStatus.firstElementChild.innerText = "Your message has been sent successfully, we will be in touch with you soon!";
 
         } else {
-            inquiryContainer.style.marginBottom = "80px";
+            inquiryContainer.classList.add("status-active");
             formStatus.classList.add("active", "error");
     
             switch(response.status) {
@@ -49,7 +49,7 @@ contactForm.addEventListener("submit", async (e) => {
             }
         }
     } catch (error) {
-        inquiryContainer.style.marginBottom = "80px";
+        inquiryContainer.classList.add("status-active");
         formStatus.classList.add("active", "error");
         formStatus.firstElementChild.innerText = "There was an issue sending your message. Please try again or send us an email at info@vihsolutions.com";
     }

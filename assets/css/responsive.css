@@ -422,6 +422,15 @@
         height: 145px;
     }
 
+    #contact-form-status {
+        border-width: 2px;
+        bottom: 70px;
+    }
+
+    #contact-form-status p {
+        font-weight: 500;
+    }
+
     .cta-button.contact {
         height: 50px;
         margin-top: 0;
@@ -711,6 +720,16 @@
 
     #inquiry {
         height: 160px;
+    }
+
+    #contact-form-status {
+        bottom: 77px;
+    }
+
+    #contact-form-status.error p {
+        font-size: 14.3px;
+        line-height: 1.5;
+        font-weight: 600;
     }
 
     .cta-button.contact {
@@ -1011,6 +1030,15 @@
         height: 175px;
     }
 
+    #contact-form-status {
+        bottom: 80px;
+    }
+
+    #contact-form-status.error p {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
     .cta-button.contact {
         height: 62px;
     }
@@ -1274,6 +1302,11 @@
 
     #inquiry {
         height: 200px;
+    }
+
+    #contact-form-status.error p {
+        font-size: 18px;
+        font-weight: 500;
     }
 
     .cta-button.contact {
