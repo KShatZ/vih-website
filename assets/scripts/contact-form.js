@@ -18,7 +18,7 @@ contactForm.addEventListener("submit", async (e) => {
     const body = Object.fromEntries(formData.entries());
 
     try {
-        const response = await fetch("http://127.0.0.1:5000/send-email", {
+        const response = await fetch("/send-email", {
             method: "POST",
             body: JSON.stringify(body),
             headers: {
