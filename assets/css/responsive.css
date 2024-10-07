@@ -450,6 +450,14 @@
         width: 85%;
     }
 
+    /* ====================== */
+    /* ------ 404 Page ------ */
+    /* ====================== */
+
+    #not-found-container span {
+        font-size: 15px;
+    }
+
 }
 
 
@@ -740,6 +748,15 @@
     #vih-gmap {
         height: 315px;
     }
+
+    /* ====================== */
+    /* ------ 404 Page ------ */
+    /* ====================== */
+    #section-404 {
+        row-gap: 75px;
+        margin-top: 75px;
+    }
+
 }
 
 @media (min-width: 1000px) {
@@ -1064,6 +1081,27 @@
 
     .modal-content-container {
         width: 75%;
+    }
+
+    /* ====================== */
+    /* ------ 404 Page ------ */
+    /* ====================== */
+
+    #logo-404 {
+        width: 250px;
+    }
+
+    #not-found-container span {
+        font-size: 16px;
+    }
+
+    #not-found-container .cta-button {
+        height: 55px;
+        font-size: 22px;
+    }
+
+    #not-found-container .cta-button a svg {
+        width: 18px;
     }
 }
 
