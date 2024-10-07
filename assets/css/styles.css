@@ -933,7 +933,6 @@ address {
     color: var(--accent);
     font-size: 14px;
     font-weight: 500;
-    margin-bottom: -5px;
 }
 
 #not-found-container .cta-button {
@@ -944,12 +943,12 @@ address {
 }
 
 #not-found-container .cta-button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
     width: 100%;
     max-height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 10px;
 }
 
 #not-found-container .cta-button a svg {
