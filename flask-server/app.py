@@ -48,14 +48,17 @@ def send_email():
 
         try:
             mail.send(email)
+            user_info.pop("captchaToken", None)
             print("Email sent with info:", user_info)
+            print("Captcha Response:", captcha_response)
         except Exception as e:
-            print("There was an issue sending email:", e)
+            user_info.pop("captchaToken", None)
+            print(f"There was an issue sending email for request: {user_info} -- The error: {e}")
             return Response(status=500)
 
         return Response(status=200)
     else:
-        print(f"Captcha failed! --- Request Body: {user_info} --- Captcha Body: {captcha_response}")
+        print(f"Captcha failed! --- Request Body: {user_info} --- Captcha Response: {captcha_response} --- Request IP: {request.headers.get('X-Real-IP', 'N/A')}")
         return Response(status=403)
 
 
