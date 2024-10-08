@@ -24,7 +24,7 @@ def send_email():
         )
         captcha_response = r.json()
     except Exception as e:
-        print("Failed to validate recaptcha for request:", user_info)
+        print(f"Failed to validated recpatcha for request: {user_info} --- The error: {e}")
 
     if captcha_response.get("success", False) and captcha_response.get("score", 0) >= 0.4:
 
