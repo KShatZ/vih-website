@@ -5,9 +5,7 @@
 ---
 
 <div align="center">
-    <h2>
-        <a href="https://www.vihsolutions.com/">Live Website</a>
-    </h2>
+    <a href="https://www.vihsolutions.com/" style="font-size: 25px">Live Website</a>
 </div>
 
 ## Project Description:
