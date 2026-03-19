@@ -1,3 +1,81 @@
+@media (min-width: 400px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+
+    #home-hero-section h1 {
+        max-width: 26ch;
+    }
+}
+
+@media (min-width: 413px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+
+    #home-hero-section p {
+        max-width: 40ch;
+    }
+}
+
+@media (min-width: 430px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+
+    #home-hero-section h1 {
+        font-size: 21px;
+    }
+}
+
+@media (min-width: 500px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+    
+    #home-hero-section h1 {
+        font-size: 22px;
+    }
+    
+    #home-hero-section p {
+        max-width: 450px;
+    }
+}
+
+@media (min-width: 575px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+    
+    #home-hero-section h1 {
+        font-size: 24px;
+    }
+    
+    #home-hero-section p {
+        max-width: none;
+    }
+}
+
+@media (min-width: 620px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+    
+    #home-hero-section p {
+        max-width: 580px;
+    }
+}
+
+@media (min-width: 680px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+    
+    #home-hero-section p {
+        max-width: none;
+    }
+}
+
 @media (min-width: 768px) {
     /* ====================== */
     /* ------ Globals ------  */
@@ -199,7 +277,7 @@
 
     .cta-button.home {
         margin: 0;
-        width: 50%;
+        width: 300px;
     }
 
     /* Services Section */
@@ -477,6 +555,16 @@
     }
 }
 
+@media (min-width: 860px) {
+    /* ======================= */
+    /* ------ Home Page ------ */
+    /* ======================= */
+    
+    #home-hero-section p {
+        max-width: 50ch;
+    }
+}
+
 
 /* Font Size Change Happens Here */
 @media (min-width: 900px) {
@@ -597,7 +685,7 @@
     }
 
     .cta-button.home {
-        width: 45%;
+        width: 315px;
     }
 
     /* Services Section */
@@ -918,6 +1006,8 @@
 
     #home-hero-section p {
         font-size: 16px;
+        max-width: none;
+        text-wrap: balance;
     }
 
     /* Services Section */
@@ -1188,7 +1278,7 @@
     }
 
     .cta-button.home {
-        width: 43%;
+        width: 350px;
     }
 
     /* Services Section */

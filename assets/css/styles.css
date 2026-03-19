@@ -471,8 +471,8 @@ address {
     font-size: 14px;
     font-weight: 500;
     opacity: 80%;
-    text-align: justify;
     margin-bottom: 30px;
+    max-width: 37ch;
 }
 
 .cta-button.home {
