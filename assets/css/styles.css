@@ -460,7 +460,7 @@ address {
 }
 
 #home-hero-section h1 {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 800;
     line-height: 1.5;
     margin-bottom: 20px;
@@ -485,18 +485,26 @@ address {
 #services-section {
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 40px 0;
     width: 100%;
+}
+
+#services-section h2 {
+    font-size: 21px;
+    text-decoration: underline var(--accent);
+    text-underline-offset: 10px; 
 }
 
 #services-section ul {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 68px;
-    padding-top: 65px;
-    padding-bottom: 65px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 40px;
+    padding-top: 35px;
 }
 
 .home-service-item {
@@ -511,7 +519,7 @@ address {
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    row-gap: 16px;
+    row-gap: 12px;
     width: 75%;
 }
 
@@ -523,14 +531,18 @@ address {
     transition: opacity 0.5s ease, fill 0.5s ease;
 }
 
-.home-service-link h2 {
+.home-service-item:first-child .home-service-link svg {
+    padding-left: 3px;
+}
+
+.home-service-link h3 {
     font-size: 20px;
     font-weight: 800;
     opacity: 50%;
     transition: opacity 0.5s ease, color 0.5s ease;
 }
 
-.home-service-link:hover h2,
+.home-service-link:hover h3,
 .home-service-link:hover svg{
     color: #3CC0F0;
     fill: #3CC0F0;
