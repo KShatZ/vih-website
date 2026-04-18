@@ -47,6 +47,15 @@
     .home-service-link h3 {
         font-size: 21px;
     }
+
+    /* Who We Help Section */
+    .who-we-help-card h3 {
+        font-size: 21px;
+    }
+
+    .who-we-help-card ul li {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -80,6 +89,11 @@
 
     .home-service-item:first-child .home-service-link svg {
         padding: 0;
+    }
+
+    /* Who We Help Section  */
+    #contractor-card-break {
+        display: none;
     }
 
 }
@@ -1412,7 +1426,6 @@
     .client:not(.abatement, .home-owners, .builders) {
         order: 2;
     }
-
 
     /* ============================== */
     /* ------- Contact Us Page ------ */

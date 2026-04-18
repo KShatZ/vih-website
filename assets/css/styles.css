@@ -549,6 +549,37 @@ address {
     opacity: 100%;
 }
 
+/* Who We Help Section */
+#who-we-help {
+    display: flex;
+    flex-direction: column;
+    row-gap: 48px;
+}
+.who-we-help-card {
+    background: rgba(255, 255, 255, .1);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, .1);
+    /* border-top: 3px solid rgba(75, 184, 224, .5); */
+    padding: 20px 15px;
+    margin: 0px 7px;
+}
+
+.who-we-help-card h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.who-we-help-card ul {
+    padding-left: 16px;
+    border-left: 2px solid rgba(75, 184, 224, 1);
+    margin-left: 5px;
+}
+
+.who-we-help-card ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
 /* ======================== */
 /* ------ About Page ------ */
 /* ======================== */
