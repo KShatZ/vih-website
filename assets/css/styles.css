@@ -553,15 +553,15 @@ address {
 #who-we-help {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 48px;
 }
 .who-we-help-card {
     background: rgba(255, 255, 255, .1);
-    border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, .1);
-    /* border-top: 3px solid rgba(75, 184, 224, .5); */
+    border-radius: 12px;
     padding: 20px 15px;
-    margin: 0px 7px;
+    width: 350px;
 }
 
 .who-we-help-card h3 {

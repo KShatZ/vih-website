@@ -49,6 +49,11 @@
     }
 
     /* Who We Help Section */
+    .who-we-help-card {
+        width: 415px;
+        padding: 25px 20px;
+    }
+
     .who-we-help-card h3 {
         font-size: 21px;
     }
@@ -90,12 +95,6 @@
     .home-service-item:first-child .home-service-link svg {
         padding: 0;
     }
-
-    /* Who We Help Section  */
-    #contractor-card-break {
-        display: none;
-    }
-
 }
 
 @media (min-width: 620px) {
@@ -573,7 +572,6 @@
 
 
 @media (min-width: 826px) {
-
     .mold .hero-description {
         font-size: 15px;
     }
@@ -595,6 +593,29 @@
 
     #home-hero-section p {
         max-width: 50ch;
+    }
+
+    /* Who We Help Section */
+    #who-we-help {
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        column-gap: 25px;
+        row-gap: none;
+    }
+
+    .who-we-help-card {
+        padding: 20px 18px;
+        width: auto;
+        flex: 1;
+    }
+    
+   .who-we-help-card h3 {
+        font-size: 21px;
+    }
+
+    .who-we-help-card ul li {
+        font-size: 14px;
     }
 }
 
@@ -886,6 +907,15 @@
     #home-hero-section {
         padding-top: 145px;
         margin-bottom: 15px;
+    }
+    
+    /* Who We Help Section */
+    #who-we-help {
+        column-gap: 22px;
+    }
+
+    .who-we-help-card {
+        padding: 25px 20px;
     }
 }
 
@@ -1329,6 +1359,22 @@
 
     .home-service-link h3 {
         font-size: 24px;
+    }
+
+    /* Who We Help Section */
+    #who-we-help {
+        column-gap: 35px;
+    }
+    .who-we-help-card {
+        padding: 30px 25px;
+    }
+
+    .who-we-help-card h3 {
+        font-size: 22px;
+    }
+
+    .who-we-help-card ul li {
+        font-size: 16px;
     }
 
     /* =========================== */
