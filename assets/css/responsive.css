@@ -61,6 +61,11 @@
     .who-we-help-card ul li {
         font-size: 15px;
     }
+
+    #who-we-help-cta .cta-button {
+        font-size: 18px;
+        width: 415px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -758,6 +763,11 @@
     .home-service-link svg {
         height: 85px;
     }
+
+    /* Who We Help Section */
+    #who-we-help {
+        margin-bottom: 50px;
+    }
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
@@ -1083,6 +1093,19 @@
         row-gap: 22px;
     }
 
+    /* Who We Help Section */
+    #who-we-help {
+        margin-bottom: 55px;
+    }
+
+    #who-we-help-cta p {
+        font-size: 17px;
+    }
+
+    #who-we-help-cta .cta-button {
+        height: 50px;
+    }
+
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
@@ -1364,6 +1387,7 @@
     /* Who We Help Section */
     #who-we-help {
         column-gap: 35px;
+        margin-bottom: 65px;
     }
     .who-we-help-card {
         padding: 30px 25px;
@@ -1376,6 +1400,15 @@
     .who-we-help-card ul li {
         font-size: 16px;
     }
+
+    #who-we-help-cta p {
+        font-size: 18px;
+    }
+
+    #who-we-help-cta .cta-button {
+        font-size: 20px;
+    }
+    
 
     /* =========================== */
     /* ------ Services Page ------ */
