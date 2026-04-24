@@ -488,14 +488,8 @@ address {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 0;
+    padding: 65px 0;
     width: 100%;
-}
-
-#services-section h2 {
-    font-size: 21px;
-    text-decoration: underline var(--accent);
-    text-underline-offset: 10px; 
 }
 
 #services-section ul {
@@ -504,7 +498,6 @@ address {
     align-items: center;
     justify-content: center;
     row-gap: 40px;
-    padding-top: 35px;
 }
 
 .home-service-item {
