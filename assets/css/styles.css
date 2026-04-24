@@ -481,7 +481,6 @@ address {
 }
 
 /* Services Section */
-
 #services-section {
     background-color: rgba(255, 255, 255, 0.2);
     display: flex;
@@ -584,6 +583,7 @@ address {
 
 #who-we-help-cta p {
     font-size: 16px;
+    opacity: .85;
 }
 
 #who-we-help-cta .cta-button {
