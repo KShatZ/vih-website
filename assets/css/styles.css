@@ -592,6 +592,39 @@ address {
     width: 350px;
 }
 
+/* How it Works Section */
+#how-it-works {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.how-it-works-step {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.how-it-works-step-header {
+    display: flex;
+    column-gap: 15px;
+    border-left: 1px solid rgba(75, 184, 224, .5);
+    padding-left: 8px;
+}
+
+.how-it-works-step-header h3 {
+    font-size: 20px;
+}
+
+.how-it-works-step-header span {
+    color: rgba(75, 184, 224, 1);
+    font-size: 20px;
+}
+
+.how-it-works-step p {
+    opacity: .8;
+}
+
 /* ======================== */
 /* ------ About Page ------ */
 /* ======================== */

@@ -61,6 +61,11 @@
         font-size: 18px;
         width: 415px;
     }
+
+    /* How it Works Section */
+    .how-it-works-step-header :is(h3, span) {
+        font-size: 21px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -318,6 +323,15 @@
     /* Services Section */
     #services-section {
         padding: 80px 0 70px 0;
+    }
+
+    /* How it Works Section */
+    #how-it-works {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 10%;
+        row-gap: 50px;
     }
 
     /* =========================== */
@@ -762,6 +776,11 @@
     #who-we-help {
         margin-bottom: 50px;
     }
+
+    /* How it Works Section */
+     .how-it-works-step-header :is(h3, span) {
+        font-size: 22px;
+    }
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
@@ -1096,6 +1115,10 @@
         height: 50px;
     }
 
+    /* How it Works Section */
+    #how-it-works {
+        row-gap: 60px;
+    }
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
@@ -1390,8 +1413,15 @@
     #who-we-help-cta .cta-button {
         font-size: 20px;
     }
-    
 
+    /* How it Works Section */
+    #how-it-works {
+        row-gap: 75px;
+    }
+
+    .how-it-works-step-header :is(h3, span) {
+        font-size: 24px;
+    }
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
