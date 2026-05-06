@@ -547,7 +547,6 @@ address {
     flex-direction: column;
     align-items: center;
     row-gap: 48px;
-    margin-bottom: 48px;
 }
 .who-we-help-card {
     background: rgba(255, 255, 255, .1);
@@ -571,25 +570,6 @@ address {
 .who-we-help-card ul li {
     font-size: 14px;
     margin-bottom: 10px;
-}
-
-#who-we-help-cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    row-gap: 15px;
-}
-
-#who-we-help-cta p {
-    font-size: 16px;
-    opacity: .85;
-}
-
-#who-we-help-cta .cta-button {
-    font-size: 18px;
-    height: 45px;
-    width: 350px;
 }
 
 /* How it Works Section */
