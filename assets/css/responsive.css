@@ -66,6 +66,28 @@
     .how-it-works-step-header :is(h3, span) {
         font-size: 21px;
     }
+
+    /* Why Choose Us Section */
+    #why-choose-us {
+        align-items: center;
+    }
+
+    .why-choose-us-card {
+        width: 90%;
+    }
+
+    .why-choose-us-header {
+        font-size: 21px;
+    }
+
+    .why-choose-us-icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .why-choose-us-icon svg {
+        width: 40px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -103,6 +125,11 @@
 
     #home-hero-section p {
         max-width: 580px;
+    }
+
+    /* Why Choose Us Section */
+    .why-choose-us-card {
+        width: 80%;
     }
 }
 
@@ -332,6 +359,11 @@
         grid-template-rows: 1fr 1fr;
         column-gap: 10%;
         row-gap: 50px;
+    }
+
+    /* Why Choose Us Section */
+    .why-choose-us-card {
+        width: 75%;
     }
 
     /* =========================== */
@@ -781,6 +813,21 @@
      .how-it-works-step-header :is(h3, span) {
         font-size: 22px;
     }
+
+    /* Why Choose Us Section */
+    .why-choose-us-header {
+        font-size: 22px;
+    }
+
+    .why-choose-us-icon {
+        width: 70px;
+        height: 70px;
+    }
+
+    .why-choose-us-icon svg {
+        width: 45px;
+    }
+
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */
@@ -939,6 +986,29 @@
 
     .who-we-help-card {
         padding: 25px 20px;
+    }
+
+    /* Why Choose Us Section */
+    #why-choose-us {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: auto 1fr;
+        align-items: stretch;
+        column-gap: 25px;
+        row-gap: 45px
+    }
+
+    .why-choose-us-card {
+        width: initial;
+    }
+
+    .why-choose-us-card:nth-child(-n+3) {
+      grid-column: span 2;  /* Cards 1-3 each take 2 columns */
+    }
+
+    .why-choose-us-card:nth-child(4),
+    .why-choose-us-card:nth-child(5) {
+        grid-column: span 3;  /* Cards 4-5 each take 3 columns */
     }
 }
 
@@ -1118,6 +1188,15 @@
     /* How it Works Section */
     #how-it-works {
         row-gap: 60px;
+    }
+
+    /* Why Choose Us Section */
+    #why-choose-us {
+        column-gap: 30px;
+    }
+    
+    .why-choose-us-card {
+        padding: 25px 20px;
     }
     /* =========================== */
     /* ------ Services Page ------ */
@@ -1421,6 +1500,20 @@
 
     .how-it-works-step-header :is(h3, span) {
         font-size: 24px;
+    }
+
+    /* Why Choose Us Section */
+    .why-choose-us-header {
+        font-size: 24px;
+    }
+
+    .why-choose-us-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .why-choose-us-icon svg {
+        width: 50px;
     }
     /* =========================== */
     /* ------ Services Page ------ */
