@@ -650,10 +650,6 @@
         flex: 1;
     }
     
-   .who-we-help-card h3 {
-        font-size: 21px;
-    }
-
     .who-we-help-card ul li {
         font-size: 14px;
     }
@@ -797,6 +793,15 @@
 
     .home-service-link svg {
         height: 85px;
+    }
+
+    /* Who We Help Section */
+    .who-we-help-card h3 {
+        font-size: 22px;
+    }
+
+    .who-we-help-card ul li {
+        font-size: 15px;
     }
 
     /* How it Works Section */
@@ -1454,11 +1459,11 @@
     }
 
     .who-we-help-card h3 {
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .who-we-help-card ul li {
-        font-size: 16px;
+        font-size: 17px;
     }
 
     /* How it Works Section */

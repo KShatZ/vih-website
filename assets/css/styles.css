@@ -570,6 +570,7 @@ address {
 .who-we-help-card ul li {
     font-size: 14px;
     margin-bottom: 10px;
+    opacity: .8;
 }
 
 /* How it Works Section */
