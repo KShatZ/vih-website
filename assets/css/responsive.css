@@ -83,6 +83,11 @@
     .why-choose-us-icon svg {
         width: 40px;
     }
+
+    /* CTA Section */
+    #cta-home p {
+        font-size: 15px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -823,6 +828,14 @@
         width: 45px;
     }
 
+    /* CTA Section */
+    #cta-home h2 {
+        font-size: 26px;
+    }
+
+    #cta-home p {
+        font-size: 16px;
+    }
     /* =========================== */
     /* ------ Services Page ------ */
     /* =========================== */

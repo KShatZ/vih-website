@@ -652,6 +652,18 @@ address {
     width: 35px;
     height: auto;
 }
+
+/* CTA Section */
+#cta-home {
+    text-align: center;
+}
+
+#cta-home p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .8;
+    margin-bottom: 20px;
+}
 /* ======================== */
 /* ------ About Page ------ */
 /* ======================== */
