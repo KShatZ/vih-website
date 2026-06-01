@@ -442,6 +442,13 @@ address {
     color: var(--accent);
 }
 
+/* Card Styles */
+.card {
+    background: rgba(255, 255, 255, .1);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 12px;
+}
+
 
 /* ======================= */
 /* ------ Home Page ------ */
@@ -804,6 +811,111 @@ address {
     margin-left: auto;
     margin-right: auto;
     grid-row: 2 / 3;
+}
+
+/* Lead Service Pages */
+#who-needs-lead-cards {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    margin-bottom: 45px;
+}
+
+#who-needs-lead-cards .card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 25px;
+    font-size: 15px;
+}
+
+#who-needs-lead-cards .card .header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;;
+}
+
+#who-needs-lead-cards .card .header .icon {
+    background: rgba(75, 184, 224, .2);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+}
+
+#who-needs-lead-cards .card .header .icon svg {
+    width: 35px;
+    height: auto;
+}
+
+#who-needs-lead-cards .card .header h3 {
+    font-size: 20px;
+}
+
+#who-needs-lead-cards .card ul,
+#who-needs-lead-cards .card p {
+    opacity: .8;
+}
+
+#who-needs-lead-cards .card .pain-points {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+#who-needs-lead-cards .card .pain-points li {
+    margin-bottom: 5px;
+}
+
+#who-needs-lead-cards .card .child-cta {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#who-needs-lead-cards .card .child-cta a {
+    border: 1px solid var(--accent);
+    border-radius: 6px;
+    color: var(--accent);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 5px;
+    align-self: start;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+#who-needs-lead-cards .card .child-cta a:hover {
+    background-color: var(--accent);
+    color: var(--white);
+}
+
+#who-needs-lead-cards .card .child-cta a svg {
+    width: auto;
+    height: 20px;
+}
+
+#who-needs-lead-cards .card .child-cta a svg path {
+    transition: fill 0.5s ease;
+}
+
+#who-needs-lead-cards .card .child-cta a:hover svg path {
+    fill: var(--white);
+}
+
+#who-needs-lead-cta h3 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#who-needs-lead-cta p {
+    font-size: 14px;
+    font-weight: 300;
+    opacity: .8;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* ============================= */
