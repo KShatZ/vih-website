@@ -991,6 +991,37 @@ address {
     opacity: .8;
 }
 
+/* Why Lead Testing Matters Section */
+#why-lead-testing {
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-stat-block {
+    padding: 35px 12px;
+}
+
+.lead-stat-block:nth-child(2n-1) {
+    background-color:#002540;
+}
+
+.lead-stat-block span {
+    color: var(--accent);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.lead-stat-block h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.lead-stat-block p {
+    opacity: .8;
+}
+
 /* ============================= */
 /* ------ Contact Us Page ------ */
 /* ============================= */

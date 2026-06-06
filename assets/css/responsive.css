@@ -122,6 +122,15 @@
     .lead-testing-method ul {
         width: 70%;
     }
+    
+    /* Why Lead Testing Matters Section */
+    .lead-stat-block {
+        padding: 35px 20px;
+    }
+
+    .lead-stat-block h3{
+        font-size: 21px
+    }
 }
 
 @media (min-width: 575px) {
@@ -511,6 +520,11 @@
 
     .lead-testing-method ul {
         width: 100%;
+    }
+
+    /* Why Lead Testing Matters Section */
+    .lead-stat-block {
+        padding: 40px 25px;
     }
 
 
@@ -1043,6 +1057,19 @@
         font-size: 16px;
     }
 
+    /* Why Lead Testing Matters Section */
+    .lead-stat-block {
+        padding: 45px 30px;
+    }
+
+    .lead-stat-block span {
+        font-size: 33px;
+    }
+
+    .lead-stat-block h3 {
+        font-size: 22px;
+    }
+
     /* ======================== */
     /* ------ About Page ------ */
     /* ======================== */
@@ -1452,6 +1479,19 @@
 
     #who-needs-lead-cards .card {
         padding: 30px 20px;
+    }
+
+    /* Why Lead Testing Matters Section */
+    .lead-stat-block {
+        padding: 50px 35px;
+    }
+
+    .lead-stat-block span {
+        font-size: 34px;
+    }
+
+    .lead-stat-block h3 {
+        font-size: 24px;
     }
 
     /* Mold Service Descriptions */
