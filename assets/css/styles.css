@@ -1022,6 +1022,29 @@ address {
     opacity: .8;
 }
 
+/* Why Choose Us Lead Section */
+#lead-why-choose-us {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+#lead-why-choose-us li {
+    display: flex;
+    align-items: center;
+    column-gap:  10px;
+    font-size: 17px;
+    font-weight: 600;
+    opacity: .8;
+}
+
+#lead-why-choose-us li .img-container {
+    width: 27px;
+    height: 27px;
+}
+
 /* ============================= */
 /* ------ Contact Us Page ------ */
 /* ============================= */

@@ -184,6 +184,34 @@
     .lead-testing-method ul {
         width: 60%;
     }
+
+    /* Lead Why Choose Us Section */
+    #lead-why-choose-us {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 50px;
+    }
+
+    #lead-residential-exp {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    #lead-commercial-exp {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    #lead-independent {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+
+    #lead-detailed-reporting {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
 }
 
 @media (min-width: 680px) {
@@ -527,6 +555,19 @@
         padding: 40px 25px;
     }
 
+    /* Lead Why Choose Us Section */
+    #lead-why-choose-us {
+        column-gap: 75px;
+    }
+
+    #lead-why-choose-us li {
+        font-size: 18px;
+    }
+
+    #lead-why-choose-us li .img-container {
+        width: 30px;
+        height: 30px;
+    }
 
     /* Mold Service Descriptions */
     #mold-services {
@@ -1015,6 +1056,21 @@
     #who-needs-lead-cta p {
         font-size: 16px;
     }
+    
+    /* Why Choose Us Lead Section */
+    #lead-why-choose-us {
+        column-gap: 125px;
+        row-gap: 45px;
+    }
+
+    #lead-why-choose-us li {
+        font-size: 19px;
+    }
+
+    #lead-why-choose-us li .img-container{
+        width: 30px;
+        height: 30px;
+    }
 
     /* Mold Service Descriptions */
     #mold-services {
@@ -1494,6 +1550,39 @@
         font-size: 24px;
     }
 
+    /* Why Choose Us Lead Section */
+    #lead-why-choose-us {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 50px;
+    }
+
+    #lead-why-choose-us li {
+        font-size: 20px;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    #lead-why-choose-us li .img-container{
+        width: 32px;
+        height: 32px;
+    }
+
+    #lead-residential-exp {
+        grid-row: 1 / 2;
+        grid-column: 2 / 3;
+    }
+
+    #lead-commercial-exp {
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+
+    #lead-independent {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+    }
+
     /* Mold Service Descriptions */
     #mold-services {
         margin-bottom: 130px;
@@ -1852,6 +1941,12 @@
     .lead-testing-method-img {
         width: 250px;
         height: 250px;
+    }
+
+    /* Lead Why Choose Us Section */
+    #lead-why-choose-us {
+        row-gap: 65px;
+        column-gap: 75px;
     }
 
     /* Mold Service Descriptions */
