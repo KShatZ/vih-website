@@ -138,6 +138,19 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* =================================== */
+    /* ------ Residential Lead Page ------ */
+    /* =================================== */
+    /* When Residential Testing Makes Sense*/
+    .when-lead-residential-card .icon {
+        width: 53px;
+        height: 53px;
+    }
+
+    .when-lead-residential-card h3 {
+        font-size: 21px;
+    }
 }
 
 @media (min-width: 575px) {
@@ -599,6 +612,19 @@
     /* Lead Final CTA */
     #lead-final-cta {
         padding-top: 30px;
+    }
+
+    /* =================================== */
+    /* ------ Residential Lead Page ------ */
+    /* =================================== */
+
+    /* When Residential Testing Makes Sense */
+    #when-lead-residential-cards {
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+        gap: 35px;
     }
 
     /* Mold Service Descriptions */
@@ -1143,6 +1169,24 @@
         padding-top: 40px;
     }
 
+    /* =================================== */
+    /* ------ Residential Lead Page ------ */
+    /* =================================== */
+
+    /* When Residential Testing Makes Sense */
+    #when-lead-residential-cards {
+        gap: 45px
+    }
+
+    .when-lead-residential-card .icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .when-lead-residential-card h3 {
+        font-size: 22px;
+    }
+
     /* Mold Service Descriptions */
     #mold-services {
         column-gap: 39px;
@@ -1388,6 +1432,15 @@
 
     #lead-final-cta {
         padding-top: 40px;
+    }
+
+    /* =================================== */
+    /* ------ Residential Lead Page ------ */
+    /* =================================== */
+
+    /* When Residential Testing Makes Sense */
+    #when-lead-residential-cards {
+        gap: 50px;
     }
 }
 
@@ -2080,6 +2133,25 @@
 
     #lead-final-cta {
         padding-top: 50px;
+    }
+
+    /* =================================== */
+    /* ------ Residential Lead Page ------ */
+    /* =================================== */
+
+    /* When Residential Testing Makes Sense */
+    #when-lead-residential-cards {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .when-lead-residential-card h3 {
+        font-size: 24px;
+    }
+
+    .when-lead-residential-card .icon {
+        width: 60px;
+        height: 60px;
     }
 
     /* Mold Service Descriptions */
