@@ -1250,6 +1250,17 @@ details[open] summary .img-container {
     color: var(--accent);
 }
 
+/* Residential Last CTA */
+#cta-residential {
+    text-align: center;
+}
+
+#cta-residential p {
+    font-weight: 300;
+    opacity: .8;
+    margin: 10px auto 20px;
+}
+
 /* ============================= */
 /* ------ Contact Us Page ------ */
 /* ============================= */
