@@ -21,6 +21,19 @@
 }
 
 @media (min-width: 500px) {
+    /* ===================== */
+    /* ------ Globals ------ */
+    /* ===================== */
+
+    /* Card Styles */
+    .eyebrow-card-header h3 {
+        font-size: 21px;
+    }
+
+    .eyebrow-card-header span {
+        font-size: 15px;
+    }    
+
     /* ======================= */
     /* ------ Home Page ------ */
     /* ======================= */
@@ -151,16 +164,7 @@
     .when-lead-residential-card h3 {
         font-size: 21px;
     }
-
-    /* Residential Lead Testing Services */
-    .residential-lead-service-header h3 {
-        font-size: 21px;
-    }
-
-    .residential-lead-service-header span {
-        font-size: 15px;
-    }
-}
+} 
 
 @media (min-width: 575px) {
     /* ======================= */
@@ -434,6 +438,11 @@
         margin-left: auto;
     }
 
+    /* Card Styles */
+    .eyebrow-card {
+        flex: 1;
+    }
+
     /* FAQ */
     summary {
         padding: 15px 20px;
@@ -646,10 +655,18 @@
         row-gap: 0;
     }
 
-    .residential-lead-service {
-        flex: 1;
+    /* =================================== */
+    /* ------ Real Estate Lead Page ------ */
+    /* =================================== */
+    /* Lead Real Estate Process */
+    #lead-real-estate-process {
+        row-gap: 40px;
     }
 
+    .lead-real-estate-process-step-header h3 {
+        font-size: 21px
+    }
+       
     /* Mold Service Descriptions */
     #mold-services {
         grid-template-columns: auto 1fr;
@@ -968,6 +985,15 @@
         margin: 0 10px;
     }
 
+    /* Card Styles */
+    .eyebrow-card-header h3 {
+        font-size: 22px;
+    }  
+
+    .eyebrow-card-header span {
+        font-size: 16px;
+    } 
+
     /* FAQ */
     summary {
         padding: 20px 25px;
@@ -1247,11 +1273,7 @@
         column-gap: 35px;
     }
 
-    .residential-lead-service-header h3 {
-        font-size: 22px;
-    }
-
-    .residential-lead-service-content ul {
+    #residential-lead-services .eyebrow-card ul {
         font-size: 16px;
     }
 
@@ -1262,6 +1284,34 @@
     
     #cta-residential p {
         width: 80%;
+    }
+
+    /* =================================== */
+    /* ------ Real Estate Lead Page ------ */
+    /* =================================== */
+    
+    /* MDE Lead Registration */    
+    #rental-lead-registration-card p,
+    #mde-lead-registration-link  {
+        font-size: 16px;
+    }
+
+    /* Understanding MD Lead Certs */
+    .md-certificate-desc h4 {
+        font-size: 16px;
+    }
+
+    /* Lead Real Estate Process */
+    #lead-real-estate-process {
+        row-gap: 45px;
+    }
+
+    .lead-real-estate-process-step-header span {
+        font-size: 16px;
+    }
+
+    .lead-real-estate-process-step-header h3 {
+        font-size: 22px;
     }
 
     /* Mold Service Descriptions */
@@ -1611,6 +1661,11 @@
         line-height: 1.4;
     }
 
+    /* Card Styles */
+    .eyebrow-card-header span {
+        font-size: 18px;
+    } 
+
     /* FAQ */
     summary {
         padding: 20px 25px;
@@ -1810,7 +1865,49 @@
         column-gap: 40px;
     }
 
-    .residential-lead-service-content ul {
+    #residential-lead-services .eyebrow-card ul {
+        font-size: 18px;
+    }
+
+    /* =================================== */
+    /* ------ Real Estate Lead Page ------ */
+    /* =================================== */
+    /* MDE Lead Registration */    
+    #rental-lead-registration-card {
+        padding: 20px 30px;
+    }
+
+    #rental-lead-registration-card p,
+    #mde-lead-registration-link  {
+        font-size: 18px;
+    }
+
+    #mde-lead-registration-link svg {
+        height: 24px;
+        width: auto;
+        margin-top: 0px;
+    }
+
+    /* Understanding MD Lead Certs */
+    #md-lead-certificates .eyebrow-card {
+        width: 70%;
+        margin: auto;
+    }
+
+    #md-lead-certificates .eyebrow-card-header {
+        padding: 40px 35px 25px;
+    } 
+
+    #md-lead-certificates .eyebrow-card-content {
+        padding: 25px 35px 40px;
+    }
+
+    .md-certificate-desc h4 {
+        font-size: 18px;
+    }
+
+    /* Lead Real Estate Process */
+    .lead-real-estate-process-step-header span {
         font-size: 18px;
     }
 
@@ -2001,6 +2098,15 @@
 
     #footer-about p {
         line-height: 1.5;
+    }
+
+    /* Card Styles */
+    .eyebrow-card-header h3 {
+        font-size: 24px;
+    }
+
+    .eyebrow-card-header span {
+        font-size: 16px;
     }
 
     /* ======================= */
@@ -2217,12 +2323,17 @@
         column-gap: 45px;
     }
 
-    .residential-lead-service-header h3 {
-        font-size: 24px;
+    /* =================================== */
+    /* ------ Real Estate Lead Page ------ */
+    /* =================================== */
+
+    /* Lead Real Estate Process */
+    #lead-real-estate-process {
+        row-gap: 50px;
     }
 
-    .residential-lead-service-header span {
-        font-size: 16px;
+    .lead-real-estate-process-step-header h3 {
+        font-size: 24px;
     }
 
     /* Mold Service Descriptions */

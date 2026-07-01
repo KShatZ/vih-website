@@ -55,7 +55,8 @@ footer {
 }
 
 p {
-    font-size: 15px;   
+    font-size: 15px; 
+    opacity: .8;  
 }
 
 a {
@@ -455,6 +456,35 @@ address {
     background: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .1);
     border-radius: 12px;
+}
+
+.eyebrow-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.eyebrow-card-header {
+    padding: 30px 25px 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.eyebrow-card-header span {
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.eyebrow-card-header h3 {
+    font-size: 20px;
+}
+
+.eyebrow-card-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px 25px 30px;
+    font-size: 15px;
+    opacity: .8;
 }
 
 /* FAQ */
@@ -1209,36 +1239,7 @@ details[open] summary .img-container {
     row-gap: 35px;
 }
 
-.residential-lead-service {
-    display: flex;
-    flex-direction: column;
-}
-
-.residential-lead-service-header {
-    padding: 30px 25px 15px;
-    border-bottom: 1px solid rgba(255, 255, 255, .1);
-}
-
-.residential-lead-service-header span {
-    color: var(--accent);
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.residential-lead-service-header h3 {
-    font-size: 20px;
-}
-
-.residential-lead-service-content {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    padding: 15px 25px 30px;
-    font-size: 15px;
-    opacity: .8;
-}
-
-.residential-lead-service-content ul {
+#residential-lead-services .eyebrow-card ul {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -1246,7 +1247,7 @@ details[open] summary .img-container {
     padding-left: 15px;
 }
 
-.residential-lead-service-content ul li::marker {
+#residential-lead-services .eyebrow-card ul li::marker {
     color: var(--accent);
 }
 
@@ -1260,6 +1261,106 @@ details[open] summary .img-container {
     opacity: .8;
     margin: 10px auto 20px;
 }
+
+/* =================================== */
+/* ------ Real Estate Lead Page ------ */
+/* =================================== */
+
+/* MDE Lead Registration */
+#rental-lead-registration-card {
+    background-color: rgba(75, 184, 224, 0.08);
+    border: 1px solid rgba(75, 184, 224, .2);
+    border-radius: 0px 8px 8px 0px;
+    border-left: 3px solid var(--accent) !important;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 15px 25px;
+    margin-bottom: 15px;
+}
+
+#rental-lead-registration-card p {
+    font-size: 15px;
+    opacity: .9;
+    font-weight: 500;
+}
+
+#mde-lead-registration-link {
+    color: var(--accent);
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 5px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 500;
+}
+
+#mde-lead-registration-link svg {
+    height: 20px;
+    width: auto;
+    margin-top: 2px;
+}
+
+/* Understanding MD Lead Certs */
+#md-lead-certificates{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+#md-lead-certificates .eyebrow-card {
+    background-color: rgba(255, 255, 255, .03);
+}
+
+#md-lead-certificates .eyebrow-card-content {
+    opacity: 1;
+}
+
+.md-certificate-desc h4 {
+    color: var(--accent);
+    font-size: 15px;
+    margin-bottom: 3px;
+    opacity: .9;
+}
+
+.md-certificate-desc p {
+    hyphens: auto;
+    letter-spacing: -0.02em;
+    word-spacing: -0.02em;
+}
+
+/* Lead Real Estate Process */
+#lead-real-estate-process {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.lead-real-estate-process-step {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.lead-real-estate-process-step-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-real-estate-process-step-header span {
+    border-left: 1px solid rgba(75, 184, 224, .5);
+    color: var(--accent);
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 8px;
+}
+
+.lead-real-estate-process-step-header h3 {
+    font-size: 20px
+}
+
 
 /* ============================= */
 /* ------ Contact Us Page ------ */
